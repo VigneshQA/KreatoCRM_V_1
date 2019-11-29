@@ -1,0 +1,1294 @@
+2019-11-21 12:23:07,591 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-21 12:24:57,135 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-21 12:25:01,512 [main] INFO KretoCRM - Getting Base URL
+2019-11-21 12:25:01,653 [main] INFO KretoCRM - Quit
+2019-11-21 12:28:28,240 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-21 12:28:32,974 [main] INFO KretoCRM - Getting Base URL
+2019-11-21 12:28:33,022 [main] INFO KretoCRM - Quit
+2019-11-21 12:29:28,489 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-21 12:29:32,668 [main] INFO KretoCRM - Getting Base URL
+2019-11-21 12:29:35,291 [main] INFO KretoCRM - Entered UserName
+2019-11-21 12:29:35,520 [main] INFO KretoCRM - Entered Password
+2019-11-21 12:29:41,160 [main] INFO KretoCRM - Clicked Login button
+2019-11-21 12:29:41,170 [main] INFO KretoCRM - Quit
+2019-11-21 12:31:14,009 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-21 12:31:18,187 [main] INFO KretoCRM - Getting Base URL
+2019-11-21 12:31:20,234 [main] INFO KretoCRM - Entered UserName
+2019-11-21 12:31:20,294 [main] INFO KretoCRM - Entered Password
+2019-11-21 12:31:20,769 [main] INFO KretoCRM - Clicked Login button
+2019-11-21 12:31:20,776 [main] INFO KretoCRM - Quit
+2019-11-21 15:07:00,317 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-21 15:07:18,193 [main] INFO KretoCRM - Getting Base URL
+2019-11-21 15:07:20,485 [main] INFO KretoCRM - Entered UserName
+2019-11-21 15:07:20,577 [main] INFO KretoCRM - Entered Password
+2019-11-21 15:07:21,696 [main] INFO KretoCRM - Clicked Login button
+2019-11-21 15:07:21,768 [main] INFO KretoCRM - Quit
+2019-11-21 15:32:08,351 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-21 15:32:15,745 [main] INFO KretoCRM - Getting Base URL
+2019-11-21 15:32:17,459 [main] INFO KretoCRM - Entered UserName
+2019-11-21 15:32:17,695 [main] INFO KretoCRM - Entered Password
+2019-11-21 15:32:18,141 [main] INFO KretoCRM - Clicked Login button
+2019-11-21 15:32:18,540 [main] INFO KretoCRM - Screen shot taken
+2019-11-21 15:32:18,558 [main] INFO KretoCRM - Quit
+2019-11-21 15:34:17,692 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-21 15:34:22,326 [main] INFO KretoCRM - Getting Base URL
+2019-11-21 15:34:25,956 [main] INFO KretoCRM - Quit
+2019-11-21 15:45:51,103 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-21 15:46:08,480 [main] INFO KretoCRM - Getting Base URL
+2019-11-21 15:46:10,990 [main] INFO KretoCRM - Entered UserName
+2019-11-21 15:46:11,057 [main] INFO KretoCRM - Entered Password
+2019-11-21 15:46:12,531 [main] INFO KretoCRM - Clicked Login button
+2019-11-21 15:46:12,582 [main] WARN KretoCRM - TestCase Failed
+2019-11-21 15:46:13,104 [main] INFO KretoCRM - Screen shot taken
+2019-11-21 15:46:13,147 [main] INFO KretoCRM - Quit
+2019-11-21 15:48:35,842 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-21 15:48:41,562 [main] INFO KretoCRM - Getting Base URL
+2019-11-21 15:48:44,010 [main] INFO KretoCRM - Entered UserName
+2019-11-21 15:48:44,091 [main] INFO KretoCRM - Entered Password
+2019-11-21 15:48:44,650 [main] INFO KretoCRM - Clicked Login button
+2019-11-21 15:48:44,696 [main] WARN KretoCRM - TestCase Failed
+2019-11-21 15:48:44,739 [main] INFO KretoCRM - Quit
+2019-11-21 17:12:28,404 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-21 17:12:34,707 [main] INFO KretoCRM - Getting Base URL
+2019-11-21 17:12:36,866 [main] INFO KretoCRM - Entered UserName
+2019-11-21 17:12:36,956 [main] INFO KretoCRM - Entered Password
+2019-11-21 17:12:37,900 [main] INFO KretoCRM - Clicked Login button
+2019-11-21 17:12:40,495 [main] INFO KretoCRM - Quit
+2019-11-21 17:15:10,208 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-21 17:15:16,201 [main] INFO KretoCRM - Getting Base URL
+2019-11-21 17:15:18,273 [main] INFO KretoCRM - Entered UserName
+2019-11-21 17:15:18,337 [main] INFO KretoCRM - Entered Password
+2019-11-21 17:15:18,846 [main] INFO KretoCRM - Clicked Login button
+2019-11-21 17:15:20,919 [main] INFO KretoCRM - Quit
+2019-11-21 17:18:43,405 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-21 17:18:47,835 [main] INFO KretoCRM - Getting Base URL
+2019-11-21 17:18:49,933 [main] INFO KretoCRM - Entered UserName
+2019-11-21 17:18:50,010 [main] INFO KretoCRM - Entered Password
+2019-11-21 17:18:50,446 [main] INFO KretoCRM - Clicked Login button
+2019-11-21 17:18:58,273 [main] INFO KretoCRM - Clicked Ok button in Multi Login Warining Popup
+2019-11-21 17:18:58,456 [main] INFO KretoCRM - Clicked on UserInfo
+2019-11-21 17:19:00,174 [main] INFO KretoCRM - Clicked on Logout
+2019-11-21 17:19:02,185 [main] INFO KretoCRM - Logout failed
+2019-11-21 17:19:02,208 [main] INFO KretoCRM - Quit
+2019-11-21 17:20:07,327 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-21 17:20:10,531 [main] INFO KretoCRM - Getting Base URL
+2019-11-21 17:20:12,289 [main] INFO KretoCRM - Entered UserName
+2019-11-21 17:20:12,382 [main] INFO KretoCRM - Entered Password
+2019-11-21 17:20:16,682 [main] INFO KretoCRM - Clicked Login button
+2019-11-21 17:20:18,696 [main] WARN KretoCRM - Login Failed
+2019-11-21 17:20:18,730 [main] INFO KretoCRM - Quit
+2019-11-21 17:23:10,674 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-21 17:23:15,168 [main] INFO KretoCRM - Getting Base URL
+2019-11-21 17:23:16,815 [main] INFO KretoCRM - Entered UserName
+2019-11-21 17:23:16,908 [main] INFO KretoCRM - Entered Password
+2019-11-21 17:23:20,101 [main] INFO KretoCRM - Clicked Login button
+2019-11-21 17:23:22,206 [main] INFO KretoCRM - Clicked on UserInfo
+2019-11-21 17:23:23,486 [main] INFO KretoCRM - Clicked on Logout
+2019-11-21 17:23:26,495 [main] INFO KretoCRM - Logout failed
+2019-11-21 17:23:26,520 [main] INFO KretoCRM - Quit
+2019-11-21 17:24:27,082 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-21 17:24:30,125 [main] INFO KretoCRM - Getting Base URL
+2019-11-21 17:24:31,983 [main] INFO KretoCRM - Entered UserName
+2019-11-21 17:24:32,064 [main] INFO KretoCRM - Entered Password
+2019-11-21 17:24:35,185 [main] INFO KretoCRM - Clicked Login button
+2019-11-21 17:24:37,333 [main] INFO KretoCRM - Clicked on UserInfo
+2019-11-21 17:24:38,690 [main] INFO KretoCRM - Clicked on Logout
+2019-11-21 17:24:43,705 [main] INFO KretoCRM - Logout failed
+2019-11-21 17:24:43,732 [main] INFO KretoCRM - Quit
+2019-11-21 17:25:19,425 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-21 17:25:22,920 [main] INFO KretoCRM - Getting Base URL
+2019-11-21 17:25:25,061 [main] INFO KretoCRM - Entered UserName
+2019-11-21 17:25:25,121 [main] INFO KretoCRM - Entered Password
+2019-11-21 17:25:28,074 [main] INFO KretoCRM - Clicked Login button
+2019-11-21 17:25:30,221 [main] INFO KretoCRM - Clicked on UserInfo
+2019-11-21 17:25:32,259 [main] INFO KretoCRM - Clicked on Logout
+2019-11-21 17:25:37,273 [main] INFO KretoCRM - Logout failed
+2019-11-27 09:54:45,792 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-27 09:55:02,174 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 09:55:04,818 [main] INFO KretoCRM - Entered UserName
+2019-11-27 09:55:04,875 [main] INFO KretoCRM - Entered Password
+2019-11-27 09:55:13,804 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 09:55:15,949 [main] INFO KretoCRM - Clicked on UserInfo
+2019-11-27 09:55:17,813 [main] INFO KretoCRM - Clicked on Logout
+2019-11-27 09:56:33,650 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-27 09:56:58,707 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 09:57:00,470 [main] INFO KretoCRM - Entered UserName
+2019-11-27 09:57:00,602 [main] INFO KretoCRM - Entered Password
+2019-11-27 09:57:00,935 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 09:57:03,130 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 09:57:04,371 [main] INFO KretoCRM - Entered UserName
+2019-11-27 09:57:04,432 [main] INFO KretoCRM - Entered Password
+2019-11-27 09:57:04,721 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 09:57:06,751 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 09:57:08,040 [main] INFO KretoCRM - Entered UserName
+2019-11-27 09:57:08,119 [main] INFO KretoCRM - Entered Password
+2019-11-27 09:57:08,438 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 09:57:10,490 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 09:57:11,886 [main] INFO KretoCRM - Entered UserName
+2019-11-27 09:57:11,947 [main] INFO KretoCRM - Entered Password
+2019-11-27 09:57:12,161 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 09:57:14,207 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 09:57:15,317 [main] INFO KretoCRM - Entered UserName
+2019-11-27 09:57:15,405 [main] INFO KretoCRM - Entered Password
+2019-11-27 09:57:15,689 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 09:57:17,742 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 09:57:18,837 [main] INFO KretoCRM - Entered UserName
+2019-11-27 09:57:18,949 [main] INFO KretoCRM - Entered Password
+2019-11-27 09:57:25,391 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 09:57:27,408 [main] INFO KretoCRM - TestCase Passed
+2019-11-27 09:57:27,413 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:00:43,024 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-27 10:00:46,988 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:00:48,818 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:00:48,887 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:00:51,911 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:00:54,032 [main] INFO KretoCRM - Clicked on UserInfo
+2019-11-27 10:00:55,342 [main] INFO KretoCRM - Clicked on Logout
+2019-11-27 10:01:00,354 [main] INFO KretoCRM - Successfully Logged out
+2019-11-27 10:17:01,953 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-27 10:17:07,126 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:17:10,440 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:17:10,653 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:17:11,046 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:17:13,102 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:17:14,602 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:17:14,700 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:17:15,229 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:17:17,246 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:17:18,669 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:17:18,724 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:17:19,188 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:17:21,208 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:17:22,336 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:17:22,393 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:17:22,679 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:17:24,696 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:17:25,932 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:17:26,011 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:17:26,310 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:17:28,335 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:17:29,438 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:17:29,552 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:17:30,047 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:17:35,178 [main] INFO KretoCRM - Clicked Ok button in Multi Login Warining Popup
+2019-11-27 10:17:35,353 [main] INFO KretoCRM - Clicked on UserInfo
+2019-11-27 10:17:37,459 [main] INFO KretoCRM - Clicked on Logout
+2019-11-27 10:17:42,473 [main] INFO KretoCRM - Successfully Logged out
+2019-11-27 10:17:42,478 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:17:43,830 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:17:43,905 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:17:44,252 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:20:48,404 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-27 10:20:52,996 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:20:54,683 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:20:54,762 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:20:55,100 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:20:57,179 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:20:58,414 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:20:58,546 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:20:58,843 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:21:00,868 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:21:02,026 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:21:02,112 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:21:02,310 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:21:04,337 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:21:05,437 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:21:05,497 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:21:05,783 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:21:07,808 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:21:08,932 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:21:08,987 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:21:09,278 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:21:11,303 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:21:12,493 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:21:12,549 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:21:16,157 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:21:18,184 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:24:37,218 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-27 10:24:41,896 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:24:43,728 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:24:43,786 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:24:44,089 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:24:46,215 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:24:48,045 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:24:48,100 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:24:49,461 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:24:51,491 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:24:52,755 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:24:52,809 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:24:53,109 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:24:55,171 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:24:56,792 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:24:56,843 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:24:57,174 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:24:59,201 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:25:00,913 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:25:00,963 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:25:01,260 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:25:03,286 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:25:04,400 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:25:04,451 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:25:04,830 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:25:10,670 [main] INFO KretoCRM - Clicked Ok button in Multi Login Warining Popup
+2019-11-27 10:25:12,751 [main] INFO KretoCRM - Clicked on UserInfo
+2019-11-27 10:25:14,468 [main] INFO KretoCRM - Clicked on Logout
+2019-11-27 10:25:19,482 [main] INFO KretoCRM - Successfully Logged out
+2019-11-27 10:25:19,492 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:25:20,585 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:25:20,640 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:25:20,940 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:26:15,798 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-27 10:26:20,539 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:26:22,637 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:26:22,704 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:26:23,058 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:26:25,134 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:26:26,362 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:26:26,418 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:26:26,631 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:26:28,658 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:26:29,754 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:26:29,811 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:26:30,042 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:26:32,069 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:26:33,144 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:26:33,198 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:26:33,454 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:26:35,479 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:26:36,600 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:26:36,650 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:26:36,871 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:26:38,899 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:26:39,997 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:26:40,048 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:26:42,647 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:26:44,676 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:28:36,851 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-27 10:28:43,638 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:28:45,794 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:28:45,958 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:28:46,395 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:28:48,456 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:28:49,585 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:28:49,679 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:28:49,897 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:28:51,924 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:28:53,138 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:28:53,188 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:28:53,484 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:28:55,512 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:28:56,734 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:28:56,787 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:28:57,053 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:28:59,090 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:29:00,391 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:29:00,447 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:29:00,709 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:29:02,735 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:29:03,855 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:29:03,909 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:29:04,279 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:29:09,253 [main] INFO KretoCRM - Clicked Ok button in Multi Login Warining Popup
+2019-11-27 10:29:11,341 [main] INFO KretoCRM - Clicked on UserInfo
+2019-11-27 10:29:12,576 [main] INFO KretoCRM - Clicked on Logout
+2019-11-27 10:29:17,585 [main] INFO KretoCRM - Successfully Logged out
+2019-11-27 10:29:17,591 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:29:18,930 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:29:19,004 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:29:19,295 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:33:07,645 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-27 10:33:11,966 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:33:13,899 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:33:13,957 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:33:14,206 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:33:16,271 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:33:17,630 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:33:17,690 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:33:17,965 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:33:19,993 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:33:21,114 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:33:21,167 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:33:21,426 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:33:23,452 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:33:24,541 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:33:24,594 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:33:24,862 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:33:26,892 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:33:27,990 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:33:28,043 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:33:28,317 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:33:30,344 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:33:31,484 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:33:31,540 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:33:35,518 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:33:37,546 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:34:26,942 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-27 10:34:32,100 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:34:33,718 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:34:33,784 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:34:34,010 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:34:36,077 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:34:37,362 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:34:37,449 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:34:37,677 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:34:39,710 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:34:40,836 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:34:40,898 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:34:41,177 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:34:43,204 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:34:44,428 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:34:44,506 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:34:44,949 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:34:46,974 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:34:48,083 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:34:48,147 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:34:48,455 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:34:50,482 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:34:51,725 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:34:51,779 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:34:52,360 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:34:57,744 [main] INFO KretoCRM - Clicked Ok button in Multi Login Warining Popup
+2019-11-27 10:34:59,819 [main] INFO KretoCRM - Clicked on UserInfo
+2019-11-27 10:35:01,214 [main] INFO KretoCRM - Clicked on Logout
+2019-11-27 10:35:06,228 [main] INFO KretoCRM - Successfully Logged out
+2019-11-27 10:35:06,237 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:35:07,910 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:35:07,968 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:35:08,267 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:36:15,764 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-27 10:36:21,018 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:36:23,098 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:36:23,158 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:36:23,404 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:36:28,473 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:36:29,592 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:36:29,644 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:36:30,051 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:36:35,067 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:36:36,338 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:36:36,398 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:36:36,676 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:36:41,702 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:36:42,795 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:36:42,866 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:36:43,169 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:36:48,195 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:36:49,293 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:36:49,349 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:36:49,611 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:36:54,644 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:36:56,056 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:36:56,130 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:36:59,523 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:37:04,546 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:37:33,695 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-27 10:37:39,043 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:37:41,072 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:37:41,142 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:37:41,346 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:37:46,411 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:37:47,568 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:37:47,634 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:37:47,948 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:37:52,978 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:37:54,336 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:37:54,408 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:37:54,707 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:37:59,735 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:38:00,870 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:38:00,928 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:38:01,228 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:38:06,268 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:38:07,437 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:38:07,504 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:38:07,721 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:38:12,758 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:38:14,072 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:38:14,134 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:38:14,538 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:38:22,333 [main] INFO KretoCRM - Clicked Ok button in Multi Login Warining Popup
+2019-11-27 10:38:24,542 [main] INFO KretoCRM - Clicked on UserInfo
+2019-11-27 10:38:25,809 [main] INFO KretoCRM - Clicked on Logout
+2019-11-27 10:38:30,835 [main] INFO KretoCRM - Successfully Logged out
+2019-11-27 10:38:30,844 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:38:32,156 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:38:32,214 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:38:32,504 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:41:41,628 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-27 10:41:47,084 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:41:48,869 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:41:48,938 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:41:49,258 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:41:54,318 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:41:55,459 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:41:55,526 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:41:55,819 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:42:00,854 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:42:02,215 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:42:02,270 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:42:02,591 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:42:07,617 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:42:08,876 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:42:08,929 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:42:09,197 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:42:14,224 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:42:15,329 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:42:15,381 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:42:15,659 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:42:20,686 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:42:22,061 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:42:22,117 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:42:25,240 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:42:30,271 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:44:22,597 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-27 10:44:29,139 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:44:31,167 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:44:31,224 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:44:31,578 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:44:36,648 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:44:37,956 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:44:38,009 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:44:38,286 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:44:43,314 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:44:44,607 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:44:44,665 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:44:44,949 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:44:49,975 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:44:51,310 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:44:51,365 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:44:51,644 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:44:56,669 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:44:57,877 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:44:57,933 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:44:58,230 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:45:03,256 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:45:04,564 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:45:04,621 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:45:05,052 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:45:13,472 [main] INFO KretoCRM - Clicked Ok button in Multi Login Warining Popup
+2019-11-27 10:45:15,477 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:49:07,974 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-27 10:49:12,755 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:49:14,938 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:49:15,007 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:49:15,354 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:49:20,419 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:49:21,540 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:49:21,592 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:49:21,894 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:49:26,920 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:49:28,193 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:49:28,249 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:49:28,466 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:49:33,492 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:49:34,665 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:49:34,721 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:49:35,021 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:49:40,039 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:49:41,115 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:49:41,192 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:49:41,513 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:49:46,538 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:49:47,849 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:49:47,900 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:49:50,931 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:49:55,963 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:53:07,975 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-27 10:53:12,728 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:53:14,423 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:53:14,488 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:53:14,790 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:53:19,860 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:53:21,067 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:53:21,164 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:53:21,401 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:53:26,428 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:53:27,723 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:53:27,780 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:53:28,067 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:53:33,154 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:53:34,241 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:53:34,293 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:53:34,569 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:53:39,585 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:53:40,686 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:53:40,736 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:53:41,023 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:53:46,050 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:53:47,334 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:53:47,388 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:53:47,817 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:53:55,658 [main] INFO KretoCRM - Clicked Ok button in Multi Login Warining Popup
+2019-11-27 10:53:57,740 [main] INFO KretoCRM - Clicked on UserInfo
+2019-11-27 10:53:58,997 [main] INFO KretoCRM - Clicked on Logout
+2019-11-27 10:54:04,011 [main] INFO KretoCRM - Successfully Logged out
+2019-11-27 10:54:04,020 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:54:05,116 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:54:05,173 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:54:05,372 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:54:24,953 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-27 10:54:29,660 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:54:31,346 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:54:31,468 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:54:31,762 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:54:36,830 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:54:37,915 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:54:37,970 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:54:38,254 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:54:43,289 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:54:44,576 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:54:44,633 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:54:44,914 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:54:49,942 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:54:51,092 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:54:51,149 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:54:51,702 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:54:56,729 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:54:57,831 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:54:57,887 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:54:58,184 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:55:03,211 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:55:04,543 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:55:04,597 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:55:09,938 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:55:14,973 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:57:18,265 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-27 10:57:22,895 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:57:25,057 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:57:25,119 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:57:25,431 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:57:25,506 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:57:26,641 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:57:26,698 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:57:26,983 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:57:27,032 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:57:28,186 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:57:28,241 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:57:28,556 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:57:28,599 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:57:29,759 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:57:29,825 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:57:30,112 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:57:30,159 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:57:31,199 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:57:31,250 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:57:31,455 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:57:31,475 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:57:32,546 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:57:32,602 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:57:33,077 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:57:33,203 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:58:41,343 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-27 10:58:46,105 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:58:48,028 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:58:48,086 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:58:48,399 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:58:51,461 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:58:52,567 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:58:52,641 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:58:52,935 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:58:55,965 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:58:57,104 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:58:57,160 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:58:57,432 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:59:00,458 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:59:01,764 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:59:01,820 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:59:02,090 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:59:05,115 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:59:06,202 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:59:06,258 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:59:06,559 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:59:09,584 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:59:10,900 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:59:10,956 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:59:11,380 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 10:59:17,352 [main] INFO KretoCRM - Clicked Ok button in Multi Login Warining Popup
+2019-11-27 10:59:19,435 [main] INFO KretoCRM - Clicked on UserInfo
+2019-11-27 10:59:20,903 [main] INFO KretoCRM - Clicked on Logout
+2019-11-27 10:59:25,917 [main] INFO KretoCRM - Successfully Logged out
+2019-11-27 10:59:25,925 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 10:59:27,084 [main] INFO KretoCRM - Entered UserName
+2019-11-27 10:59:27,136 [main] INFO KretoCRM - Entered Password
+2019-11-27 10:59:27,384 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 11:00:03,671 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-27 11:00:08,377 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 11:00:09,872 [main] INFO KretoCRM - Entered UserName
+2019-11-27 11:00:09,942 [main] INFO KretoCRM - Entered Password
+2019-11-27 11:00:10,165 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 11:00:13,232 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 11:00:14,580 [main] INFO KretoCRM - Entered UserName
+2019-11-27 11:00:14,644 [main] INFO KretoCRM - Entered Password
+2019-11-27 11:00:14,922 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 11:00:17,947 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 11:00:19,039 [main] INFO KretoCRM - Entered UserName
+2019-11-27 11:00:19,096 [main] INFO KretoCRM - Entered Password
+2019-11-27 11:00:19,325 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 11:00:22,352 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 11:00:23,716 [main] INFO KretoCRM - Entered UserName
+2019-11-27 11:00:23,773 [main] INFO KretoCRM - Entered Password
+2019-11-27 11:00:24,076 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 11:00:27,103 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 11:00:28,235 [main] INFO KretoCRM - Entered UserName
+2019-11-27 11:00:28,291 [main] INFO KretoCRM - Entered Password
+2019-11-27 11:00:28,582 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 11:00:31,608 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 11:00:32,910 [main] INFO KretoCRM - Entered UserName
+2019-11-27 11:00:32,963 [main] INFO KretoCRM - Entered Password
+2019-11-27 11:00:34,365 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 11:00:37,393 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 11:02:15,565 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-27 11:02:20,242 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 11:02:22,013 [main] INFO KretoCRM - Entered UserName
+2019-11-27 11:02:22,070 [main] INFO KretoCRM - Entered Password
+2019-11-27 11:02:22,354 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 11:02:25,404 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 11:02:26,502 [main] INFO KretoCRM - Entered UserName
+2019-11-27 11:02:26,557 [main] INFO KretoCRM - Entered Password
+2019-11-27 11:02:26,835 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 11:02:29,862 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 11:02:30,948 [main] INFO KretoCRM - Entered UserName
+2019-11-27 11:02:31,005 [main] INFO KretoCRM - Entered Password
+2019-11-27 11:02:31,212 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 11:02:34,241 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 11:02:35,568 [main] INFO KretoCRM - Entered UserName
+2019-11-27 11:02:35,623 [main] INFO KretoCRM - Entered Password
+2019-11-27 11:02:35,815 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 11:02:38,842 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 11:02:40,097 [main] INFO KretoCRM - Entered UserName
+2019-11-27 11:02:40,146 [main] INFO KretoCRM - Entered Password
+2019-11-27 11:02:40,448 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 11:02:43,475 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 11:02:44,764 [main] INFO KretoCRM - Entered UserName
+2019-11-27 11:02:44,818 [main] INFO KretoCRM - Entered Password
+2019-11-27 11:02:45,225 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 11:02:48,274 [main] INFO KretoCRM - Getting into lp.btnMLWOk.isDisplayed()==true
+2019-11-27 11:02:50,968 [main] INFO KretoCRM - Clicked Ok button in Multi Login Warining Popup
+2019-11-27 11:02:53,069 [main] INFO KretoCRM - Clicked on UserInfo
+2019-11-27 11:02:54,389 [main] INFO KretoCRM - Clicked on Logout
+2019-11-27 11:02:59,399 [main] INFO KretoCRM - Successfully Logged out
+2019-11-27 11:02:59,403 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 11:03:00,512 [main] INFO KretoCRM - Entered UserName
+2019-11-27 11:03:00,566 [main] INFO KretoCRM - Entered Password
+2019-11-27 11:03:00,888 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 11:39:54,926 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-27 11:40:02,083 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 11:40:04,330 [main] INFO KretoCRM - Entered UserName
+2019-11-27 11:40:04,398 [main] INFO KretoCRM - Entered Password
+2019-11-27 11:40:10,673 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 11:40:13,779 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 11:40:15,089 [main] INFO KretoCRM - Entered UserName
+2019-11-27 11:40:15,158 [main] INFO KretoCRM - Entered Password
+2019-11-27 11:40:15,446 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 11:40:18,474 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 11:40:19,890 [main] INFO KretoCRM - Entered UserName
+2019-11-27 11:40:19,964 [main] INFO KretoCRM - Entered Password
+2019-11-27 11:40:20,240 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 11:40:23,258 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 11:40:24,402 [main] INFO KretoCRM - Entered UserName
+2019-11-27 11:40:24,463 [main] INFO KretoCRM - Entered Password
+2019-11-27 11:40:24,748 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 11:40:27,774 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 11:40:29,137 [main] INFO KretoCRM - Entered UserName
+2019-11-27 11:40:29,200 [main] INFO KretoCRM - Entered Password
+2019-11-27 11:40:29,512 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 11:40:32,530 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 11:40:33,661 [main] INFO KretoCRM - Entered UserName
+2019-11-27 11:40:33,721 [main] INFO KretoCRM - Entered Password
+2019-11-27 11:40:42,470 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 11:40:45,502 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 11:41:04,540 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-27 11:41:09,713 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 11:41:13,638 [main] INFO KretoCRM - Entered UserName
+2019-11-27 11:41:13,703 [main] INFO KretoCRM - Entered Password
+2019-11-27 11:41:14,090 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 11:41:17,163 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 11:41:18,482 [main] INFO KretoCRM - Entered UserName
+2019-11-27 11:41:18,536 [main] INFO KretoCRM - Entered Password
+2019-11-27 11:41:19,000 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 11:41:22,017 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 11:41:23,502 [main] INFO KretoCRM - Entered UserName
+2019-11-27 11:41:23,570 [main] INFO KretoCRM - Entered Password
+2019-11-27 11:41:23,917 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 11:41:26,942 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 11:41:28,254 [main] INFO KretoCRM - Entered UserName
+2019-11-27 11:41:28,306 [main] INFO KretoCRM - Entered Password
+2019-11-27 11:41:28,572 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 11:41:31,599 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 11:41:32,956 [main] INFO KretoCRM - Entered UserName
+2019-11-27 11:41:33,008 [main] INFO KretoCRM - Entered Password
+2019-11-27 11:41:33,308 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 11:41:36,334 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 11:41:37,561 [main] INFO KretoCRM - Entered UserName
+2019-11-27 11:41:37,615 [main] INFO KretoCRM - Entered Password
+2019-11-27 11:41:38,085 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 11:41:41,146 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 11:48:26,477 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-27 11:48:31,085 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 11:48:32,942 [main] INFO KretoCRM - Entered UserName
+2019-11-27 11:48:33,011 [main] INFO KretoCRM - Entered Password
+2019-11-27 11:48:33,347 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 11:48:36,401 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 11:48:37,584 [main] INFO KretoCRM - Entered UserName
+2019-11-27 11:48:37,637 [main] INFO KretoCRM - Entered Password
+2019-11-27 11:48:38,086 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 11:48:41,113 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 11:48:42,272 [main] INFO KretoCRM - Entered UserName
+2019-11-27 11:48:42,332 [main] INFO KretoCRM - Entered Password
+2019-11-27 11:48:42,636 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 11:48:45,662 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 11:48:47,193 [main] INFO KretoCRM - Entered UserName
+2019-11-27 11:48:47,247 [main] INFO KretoCRM - Entered Password
+2019-11-27 11:48:47,553 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 11:48:50,578 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 11:48:51,703 [main] INFO KretoCRM - Entered UserName
+2019-11-27 11:48:51,756 [main] INFO KretoCRM - Entered Password
+2019-11-27 11:48:52,037 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 11:48:55,063 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 11:48:56,405 [main] INFO KretoCRM - Entered UserName
+2019-11-27 11:48:56,464 [main] INFO KretoCRM - Entered Password
+2019-11-27 11:48:57,415 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 11:49:04,869 [main] INFO KretoCRM - Clicked Ok button in Multi Login Warining Popup
+2019-11-27 11:49:06,957 [main] INFO KretoCRM - Clicked on UserInfo
+2019-11-27 11:49:08,192 [main] INFO KretoCRM - Clicked on Logout
+2019-11-27 11:49:13,201 [main] INFO KretoCRM - Successfully Logged out
+2019-11-27 11:49:13,206 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 11:49:14,605 [main] INFO KretoCRM - Entered UserName
+2019-11-27 11:49:14,661 [main] INFO KretoCRM - Entered Password
+2019-11-27 11:49:14,943 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 11:50:30,295 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-27 11:50:34,847 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 11:50:37,050 [main] INFO KretoCRM - Entered UserName
+2019-11-27 11:50:37,116 [main] INFO KretoCRM - Entered Password
+2019-11-27 11:50:37,411 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 11:50:40,477 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 11:50:41,727 [main] INFO KretoCRM - Entered UserName
+2019-11-27 11:50:41,779 [main] INFO KretoCRM - Entered Password
+2019-11-27 11:50:42,044 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 11:50:45,063 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 11:50:46,273 [main] INFO KretoCRM - Entered UserName
+2019-11-27 11:50:46,327 [main] INFO KretoCRM - Entered Password
+2019-11-27 11:50:46,576 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 11:50:49,601 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 11:50:50,879 [main] INFO KretoCRM - Entered UserName
+2019-11-27 11:50:50,928 [main] INFO KretoCRM - Entered Password
+2019-11-27 11:50:51,192 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 11:50:54,223 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 11:50:55,626 [main] INFO KretoCRM - Entered UserName
+2019-11-27 11:50:55,686 [main] INFO KretoCRM - Entered Password
+2019-11-27 11:50:55,956 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 11:50:58,991 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 11:51:00,479 [main] INFO KretoCRM - Entered UserName
+2019-11-27 11:51:00,535 [main] INFO KretoCRM - Entered Password
+2019-11-27 11:51:07,666 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 11:51:10,701 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:00:16,100 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-27 12:00:24,695 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:00:26,779 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:00:26,843 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:00:27,576 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:00:30,638 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:00:31,778 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:00:31,836 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:00:32,141 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:00:35,168 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:00:36,453 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:00:36,517 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:00:36,805 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:00:39,835 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:00:40,926 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:00:40,981 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:00:41,278 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:00:44,311 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:00:45,722 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:00:45,779 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:00:45,964 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:00:48,989 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:00:50,133 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:00:50,190 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:00:51,242 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:01:00,698 [main] INFO KretoCRM - Clicked Ok button in Multi Login Warining Popup
+2019-11-27 12:01:02,778 [main] INFO KretoCRM - Clicked on UserInfo
+2019-11-27 12:01:04,212 [main] INFO KretoCRM - Clicked on Logout
+2019-11-27 12:01:09,225 [main] INFO KretoCRM - Successfully Logged out
+2019-11-27 12:01:09,233 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:01:10,346 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:01:10,414 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:01:10,698 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:01:49,465 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-27 12:01:55,737 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:01:57,706 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:01:57,774 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:01:58,007 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:02:01,072 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:02:02,225 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:02:02,273 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:02:02,569 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:02:05,588 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:02:06,711 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:02:06,770 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:02:07,128 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:02:10,154 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:02:11,290 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:02:11,345 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:02:11,617 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:02:14,643 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:02:15,809 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:02:15,879 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:02:16,151 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:02:19,183 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:02:20,325 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:02:20,396 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:02:23,396 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:02:26,424 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:21:46,737 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-27 12:21:51,143 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:21:53,461 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:21:53,514 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:21:54,179 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:21:57,260 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:21:58,570 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:21:58,631 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:21:59,034 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:22:02,069 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:22:03,446 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:22:03,535 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:22:03,802 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:22:06,818 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:22:08,113 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:22:08,195 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:22:08,484 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:22:11,499 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:22:13,004 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:22:13,063 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:22:13,521 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:22:16,535 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:22:17,790 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:22:17,858 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:22:19,315 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:22:28,986 [main] INFO KretoCRM - Clicked Ok button in Multi Login Warining Popup
+2019-11-27 12:22:31,147 [main] INFO KretoCRM - Clicked on UserInfo
+2019-11-27 12:22:32,981 [main] INFO KretoCRM - Clicked on Logout
+2019-11-27 12:22:37,996 [main] INFO KretoCRM - Successfully Logged out
+2019-11-27 12:22:38,007 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:22:39,359 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:22:39,418 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:22:39,723 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:23:41,196 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-27 12:23:45,873 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:23:47,595 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:23:47,655 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:23:47,961 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:23:51,036 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:23:52,390 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:23:52,462 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:23:52,766 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:23:55,796 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:23:56,916 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:23:56,973 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:23:57,240 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:24:00,265 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:24:01,587 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:24:01,640 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:24:01,928 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:24:04,952 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:24:06,158 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:24:06,210 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:24:06,487 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:24:09,512 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:24:10,879 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:24:10,936 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:24:16,099 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:24:19,124 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:27:01,398 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-27 12:27:05,299 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:27:07,107 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:27:07,174 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:27:08,131 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:27:13,883 [main] INFO KretoCRM - Clicked Ok button in Multi Login Warining Popup
+2019-11-27 12:27:15,984 [main] INFO KretoCRM - Clicked on UserInfo
+2019-11-27 12:27:17,462 [main] INFO KretoCRM - Clicked on Logout
+2019-11-27 12:27:33,555 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-27 12:27:37,348 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:27:39,165 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:27:39,260 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:27:41,120 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:31:26,499 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-27 12:31:30,824 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:31:32,853 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:31:32,912 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:31:33,361 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:31:40,022 [main] INFO KretoCRM - Clicked Ok button in Multi Login Warining Popup
+2019-11-27 12:31:42,157 [main] INFO KretoCRM - Clicked on UserInfo
+2019-11-27 12:31:43,764 [main] INFO KretoCRM - Clicked on Logout
+2019-11-27 12:31:48,785 [main] INFO KretoCRM - Successfully Logged out
+2019-11-27 12:31:58,956 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-27 12:32:03,226 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:32:05,231 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:32:05,315 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:32:06,705 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:38:50,628 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-27 12:38:54,782 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:38:57,702 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:38:57,761 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:38:59,163 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:39:04,635 [main] INFO KretoCRM - Clicked Ok button in Multi Login Warining Popup
+2019-11-27 12:39:06,740 [main] INFO KretoCRM - Clicked on UserInfo
+2019-11-27 12:39:08,419 [main] INFO KretoCRM - Clicked on Logout
+2019-11-27 12:39:13,434 [main] INFO KretoCRM - Successfully Logged out
+2019-11-27 12:39:18,957 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-27 12:39:22,734 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:39:24,901 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:39:24,967 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:39:26,396 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:39:28,540 [main] INFO KretoCRM - Clicked on UserInfo
+2019-11-27 12:39:29,967 [main] INFO KretoCRM - Clicked on Logout
+2019-11-27 12:39:52,010 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-27 12:39:55,826 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:39:57,454 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:39:57,511 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:39:58,835 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:40:00,940 [main] INFO KretoCRM - Clicked on UserInfo
+2019-11-27 12:40:02,325 [main] INFO KretoCRM - Clicked on Logout
+2019-11-27 12:40:07,338 [main] INFO KretoCRM - Successfully Logged out
+2019-11-27 12:44:35,717 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-27 12:44:39,433 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:44:41,092 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:44:41,197 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:44:46,311 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:44:48,548 [main] INFO KretoCRM - Clicked on UserInfo
+2019-11-27 12:44:50,578 [main] INFO KretoCRM - Clicked on Logout
+2019-11-27 12:44:55,593 [main] INFO KretoCRM - Successfully Logged out
+2019-11-27 12:45:48,333 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-27 12:45:51,739 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:45:53,572 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:45:53,699 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:45:57,183 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:45:59,399 [main] INFO KretoCRM - Clicked on UserInfo
+2019-11-27 12:46:00,767 [main] INFO KretoCRM - Clicked on Logout
+2019-11-27 12:46:02,781 [main] INFO KretoCRM - Successfully Logged out
+2019-11-27 12:46:02,806 [main] INFO KretoCRM - Quit
+2019-11-27 12:47:13,493 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-27 12:47:18,001 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:47:19,769 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:47:19,823 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:47:20,027 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:47:23,118 [main] INFO KretoCRM - Invalid UserName / Password
+2019-11-27 12:47:23,118 [main] WARN KretoCRM - Login Failed
+2019-11-27 12:47:23,160 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:47:24,766 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:47:24,825 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:47:25,072 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:47:28,114 [main] INFO KretoCRM - Invalid UserName / Password
+2019-11-27 12:47:28,115 [main] WARN KretoCRM - Login Failed
+2019-11-27 12:47:28,120 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:47:29,364 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:47:29,421 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:47:29,713 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:47:32,755 [main] INFO KretoCRM - Invalid UserName / Password
+2019-11-27 12:47:32,755 [main] WARN KretoCRM - Login Failed
+2019-11-27 12:47:32,758 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:47:34,068 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:47:34,121 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:47:34,412 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:47:37,449 [main] INFO KretoCRM - Invalid UserName / Password
+2019-11-27 12:47:37,452 [main] WARN KretoCRM - Login Failed
+2019-11-27 12:47:37,456 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:47:38,802 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:47:38,855 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:47:39,329 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:47:42,357 [main] INFO KretoCRM - Invalid UserName / Password
+2019-11-27 12:47:42,357 [main] WARN KretoCRM - Login Failed
+2019-11-27 12:47:42,360 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:47:43,639 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:47:43,698 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:47:47,069 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:47:50,301 [main] INFO KretoCRM - Clicked on UserInfo
+2019-11-27 12:47:51,900 [main] INFO KretoCRM - Clicked on Logout
+2019-11-27 12:47:53,913 [main] INFO KretoCRM - Successfully Logged out
+2019-11-27 12:47:53,918 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:47:55,037 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:47:55,093 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:47:55,376 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:47:58,423 [main] INFO KretoCRM - Invalid UserName / Password
+2019-11-27 12:47:58,424 [main] WARN KretoCRM - Login Failed
+2019-11-27 12:47:58,427 [main] INFO KretoCRM - Quit
+2019-11-27 12:55:37,240 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-27 12:55:41,754 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:55:44,125 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:55:44,190 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:55:45,030 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:55:48,090 [main] INFO KretoCRM - Invalid UserName / Password
+2019-11-27 12:55:48,131 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:55:49,250 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:55:49,306 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:55:49,513 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:55:52,555 [main] INFO KretoCRM - Invalid UserName / Password
+2019-11-27 12:55:52,576 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:55:53,664 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:55:53,723 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:55:54,004 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:55:57,046 [main] INFO KretoCRM - Invalid UserName / Password
+2019-11-27 12:55:57,063 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:55:58,152 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:55:58,206 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:55:58,483 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:56:01,524 [main] INFO KretoCRM - Invalid UserName / Password
+2019-11-27 12:56:01,541 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:56:02,633 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:56:02,686 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:56:02,966 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:56:06,007 [main] INFO KretoCRM - Invalid UserName / Password
+2019-11-27 12:56:06,026 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:56:07,333 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:56:07,386 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:56:10,734 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:56:13,940 [main] INFO KretoCRM - Clicked on UserInfo
+2019-11-27 12:56:15,454 [main] INFO KretoCRM - Clicked on Logout
+2019-11-27 12:56:17,468 [main] INFO KretoCRM - Successfully Logged out
+2019-11-27 12:56:17,473 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:56:18,554 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:56:18,607 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:56:18,940 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:56:21,983 [main] INFO KretoCRM - Invalid UserName / Password
+2019-11-27 12:56:22,001 [main] INFO KretoCRM - Quit
+2019-11-27 12:57:45,878 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-27 12:57:50,395 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:57:52,212 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:57:52,285 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:57:52,690 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:57:55,768 [main] INFO KretoCRM - Invalid UserName / Password
+2019-11-27 12:57:55,770 [main] INFO KretoCRM - Clicking on userinfo
+2019-11-27 12:57:55,808 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:57:57,010 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:57:57,060 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:57:57,341 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:58:00,381 [main] INFO KretoCRM - Invalid UserName / Password
+2019-11-27 12:58:00,382 [main] INFO KretoCRM - Clicking on userinfo
+2019-11-27 12:58:00,400 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:58:01,501 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:58:01,561 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:58:01,859 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:58:04,899 [main] INFO KretoCRM - Invalid UserName / Password
+2019-11-27 12:58:04,899 [main] INFO KretoCRM - Clicking on userinfo
+2019-11-27 12:58:04,914 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:58:06,206 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:58:06,255 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:58:06,553 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:58:09,595 [main] INFO KretoCRM - Invalid UserName / Password
+2019-11-27 12:58:09,595 [main] INFO KretoCRM - Clicking on userinfo
+2019-11-27 12:58:09,613 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:58:10,730 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:58:10,781 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:58:11,064 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:58:14,102 [main] INFO KretoCRM - Invalid UserName / Password
+2019-11-27 12:58:14,102 [main] INFO KretoCRM - Clicking on userinfo
+2019-11-27 12:58:14,119 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:58:15,407 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:58:15,461 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:58:18,924 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:58:22,056 [main] INFO KretoCRM - Clicking on userinfo
+2019-11-27 12:58:22,116 [main] INFO KretoCRM - Clicked on UserInfo
+2019-11-27 12:58:23,658 [main] INFO KretoCRM - Clicked on Logout
+2019-11-27 12:58:25,672 [main] INFO KretoCRM - Successfully Logged out
+2019-11-27 12:58:25,679 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 12:58:26,789 [main] INFO KretoCRM - Entered UserName
+2019-11-27 12:58:26,839 [main] INFO KretoCRM - Entered Password
+2019-11-27 12:58:27,108 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 12:58:30,147 [main] INFO KretoCRM - Invalid UserName / Password
+2019-11-27 12:58:30,147 [main] INFO KretoCRM - Clicking on userinfo
+2019-11-27 12:58:30,163 [main] INFO KretoCRM - Quit
+2019-11-27 13:03:16,276 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-27 13:03:20,913 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 13:03:22,791 [main] INFO KretoCRM - Entered UserName
+2019-11-27 13:03:22,849 [main] INFO KretoCRM - Entered Password
+2019-11-27 13:03:23,167 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 13:03:26,223 [main] INFO KretoCRM - Invalid UserName / Password
+2019-11-27 13:03:26,263 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 13:03:27,386 [main] INFO KretoCRM - Entered UserName
+2019-11-27 13:03:27,441 [main] INFO KretoCRM - Entered Password
+2019-11-27 13:03:27,727 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 13:03:30,767 [main] INFO KretoCRM - Invalid UserName / Password
+2019-11-27 13:03:30,784 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 13:03:31,869 [main] INFO KretoCRM - Entered UserName
+2019-11-27 13:03:31,922 [main] INFO KretoCRM - Entered Password
+2019-11-27 13:03:32,214 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 13:03:35,255 [main] INFO KretoCRM - Invalid UserName / Password
+2019-11-27 13:03:35,271 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 13:03:36,588 [main] INFO KretoCRM - Entered UserName
+2019-11-27 13:03:36,639 [main] INFO KretoCRM - Entered Password
+2019-11-27 13:03:36,909 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 13:03:39,947 [main] INFO KretoCRM - Invalid UserName / Password
+2019-11-27 13:03:39,963 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 13:03:41,096 [main] INFO KretoCRM - Entered UserName
+2019-11-27 13:03:41,149 [main] INFO KretoCRM - Entered Password
+2019-11-27 13:03:41,430 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 13:03:44,469 [main] INFO KretoCRM - Invalid UserName / Password
+2019-11-27 13:03:44,485 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 13:03:45,769 [main] INFO KretoCRM - Entered UserName
+2019-11-27 13:03:45,819 [main] INFO KretoCRM - Entered Password
+2019-11-27 13:03:49,384 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 13:03:52,573 [main] INFO KretoCRM - Clicked on UserInfo
+2019-11-27 13:03:54,217 [main] INFO KretoCRM - Clicked on Logout
+2019-11-27 13:03:56,231 [main] INFO KretoCRM - Successfully Logged out
+2019-11-27 13:03:56,239 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 13:03:57,384 [main] INFO KretoCRM - Entered UserName
+2019-11-27 13:03:57,439 [main] INFO KretoCRM - Entered Password
+2019-11-27 13:03:57,711 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 13:04:00,753 [main] INFO KretoCRM - Invalid UserName / Password
+2019-11-27 13:04:00,770 [main] INFO KretoCRM - Quit
+2019-11-27 13:24:38,466 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-27 13:24:42,873 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 13:24:45,333 [main] INFO KretoCRM - Entered UserName
+2019-11-27 13:24:45,398 [main] INFO KretoCRM - Entered Password
+2019-11-27 13:24:46,035 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 13:24:49,079 [main] INFO KretoCRM - Invalid UserName / Password
+2019-11-27 13:24:49,124 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 13:24:50,515 [main] INFO KretoCRM - Entered UserName
+2019-11-27 13:24:50,588 [main] INFO KretoCRM - Entered Password
+2019-11-27 13:24:50,863 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 13:24:53,888 [main] INFO KretoCRM - Invalid UserName / Password
+2019-11-27 13:24:53,905 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 13:24:55,209 [main] INFO KretoCRM - Entered UserName
+2019-11-27 13:24:55,276 [main] INFO KretoCRM - Entered Password
+2019-11-27 13:24:55,789 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 13:24:58,816 [main] INFO KretoCRM - Invalid UserName / Password
+2019-11-27 13:24:58,834 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 13:25:00,301 [main] INFO KretoCRM - Entered UserName
+2019-11-27 13:25:00,370 [main] INFO KretoCRM - Entered Password
+2019-11-27 13:25:00,890 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 13:25:03,930 [main] INFO KretoCRM - Invalid UserName / Password
+2019-11-27 13:25:03,953 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 13:25:05,127 [main] INFO KretoCRM - Entered UserName
+2019-11-27 13:25:05,181 [main] INFO KretoCRM - Entered Password
+2019-11-27 13:25:05,490 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 13:25:08,531 [main] INFO KretoCRM - Invalid UserName / Password
+2019-11-27 13:25:08,550 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 13:25:10,115 [main] INFO KretoCRM - Entered UserName
+2019-11-27 13:25:10,175 [main] INFO KretoCRM - Entered Password
+2019-11-27 13:25:22,100 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 13:25:25,306 [main] INFO KretoCRM - Clicked on UserInfo
+2019-11-27 13:25:26,975 [main] INFO KretoCRM - Clicked on Logout
+2019-11-27 13:25:28,990 [main] INFO KretoCRM - Successfully Logged out
+2019-11-27 13:25:28,994 [main] INFO KretoCRM -  
+2019-11-27 13:25:28,999 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 13:25:30,416 [main] INFO KretoCRM - Entered UserName
+2019-11-27 13:25:30,474 [main] INFO KretoCRM - Entered Password
+2019-11-27 13:25:30,778 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 13:25:33,814 [main] INFO KretoCRM - Invalid UserName / Password
+2019-11-27 13:25:33,832 [main] INFO KretoCRM - Quit
+2019-11-27 13:26:18,255 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-27 13:26:22,942 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 13:26:25,222 [main] INFO KretoCRM - Entered UserName
+2019-11-27 13:26:25,279 [main] INFO KretoCRM - Entered Password
+2019-11-27 13:26:25,701 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 13:26:28,748 [main] INFO KretoCRM - Invalid UserName / Password
+2019-11-27 13:26:28,749 [main] INFO KretoCRM -  
+2019-11-27 13:26:28,784 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 13:26:30,016 [main] INFO KretoCRM - Entered UserName
+2019-11-27 13:26:30,072 [main] INFO KretoCRM - Entered Password
+2019-11-27 13:26:30,362 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 13:26:33,406 [main] INFO KretoCRM - Invalid UserName / Password
+2019-11-27 13:26:33,406 [main] INFO KretoCRM -  
+2019-11-27 13:26:33,423 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 13:26:34,667 [main] INFO KretoCRM - Entered UserName
+2019-11-27 13:26:34,725 [main] INFO KretoCRM - Entered Password
+2019-11-27 13:26:34,993 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 13:26:38,031 [main] INFO KretoCRM - Invalid UserName / Password
+2019-11-27 13:26:38,031 [main] INFO KretoCRM -  
+2019-11-27 13:26:38,048 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 13:26:39,156 [main] INFO KretoCRM - Entered UserName
+2019-11-27 13:26:39,225 [main] INFO KretoCRM - Entered Password
+2019-11-27 13:26:39,525 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 13:26:42,571 [main] INFO KretoCRM - Invalid UserName / Password
+2019-11-27 13:26:42,571 [main] INFO KretoCRM -  
+2019-11-27 13:26:42,592 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 13:26:44,058 [main] INFO KretoCRM - Entered UserName
+2019-11-27 13:26:44,110 [main] INFO KretoCRM - Entered Password
+2019-11-27 13:26:44,397 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 13:26:47,453 [main] INFO KretoCRM - Invalid UserName / Password
+2019-11-27 13:26:47,453 [main] INFO KretoCRM -  
+2019-11-27 13:26:47,467 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 13:26:48,801 [main] INFO KretoCRM - Entered UserName
+2019-11-27 13:26:48,864 [main] INFO KretoCRM - Entered Password
+2019-11-27 13:26:52,795 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 13:26:55,986 [main] INFO KretoCRM - Clicked on UserInfo
+2019-11-27 13:26:57,534 [main] INFO KretoCRM - Clicked on Logout
+2019-11-27 13:26:59,547 [main] INFO KretoCRM - Successfully Logged out
+2019-11-27 13:26:59,551 [main] INFO KretoCRM -  
+2019-11-27 13:26:59,556 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 13:27:00,877 [main] INFO KretoCRM - Entered UserName
+2019-11-27 13:27:00,937 [main] INFO KretoCRM - Entered Password
+2019-11-27 13:27:01,276 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 13:27:04,318 [main] INFO KretoCRM - Invalid UserName / Password
+2019-11-27 13:27:04,318 [main] INFO KretoCRM -  
+2019-11-27 13:27:04,337 [main] INFO KretoCRM - Quit
+2019-11-27 13:30:26,175 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-27 13:30:32,080 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 13:30:33,994 [main] INFO KretoCRM - Entered UserName
+2019-11-27 13:30:34,051 [main] INFO KretoCRM - Entered Password
+2019-11-27 13:30:34,387 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 13:30:37,443 [main] INFO KretoCRM - Invalid UserName / Password
+2019-11-27 13:30:37,444 [main] INFO KretoCRM -  
+2019-11-27 13:30:37,477 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 13:30:38,647 [main] INFO KretoCRM - Entered UserName
+2019-11-27 13:30:38,703 [main] INFO KretoCRM - Entered Password
+2019-11-27 13:30:39,020 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 13:30:42,059 [main] INFO KretoCRM - Invalid UserName / Password
+2019-11-27 13:30:42,059 [main] INFO KretoCRM -  
+2019-11-27 13:30:42,078 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 13:30:43,382 [main] INFO KretoCRM - Entered UserName
+2019-11-27 13:30:43,447 [main] INFO KretoCRM - Entered Password
+2019-11-27 13:30:43,836 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 13:30:46,871 [main] INFO KretoCRM - Invalid UserName / Password
+2019-11-27 13:30:46,872 [main] INFO KretoCRM -  
+2019-11-27 13:30:46,890 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 13:30:48,113 [main] INFO KretoCRM - Entered UserName
+2019-11-27 13:30:48,168 [main] INFO KretoCRM - Entered Password
+2019-11-27 13:30:48,619 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 13:30:51,662 [main] INFO KretoCRM - Invalid UserName / Password
+2019-11-27 13:30:51,662 [main] INFO KretoCRM -  
+2019-11-27 13:30:51,677 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 13:30:52,896 [main] INFO KretoCRM - Entered UserName
+2019-11-27 13:30:52,950 [main] INFO KretoCRM - Entered Password
+2019-11-27 13:30:53,227 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 13:30:56,269 [main] INFO KretoCRM - Invalid UserName / Password
+2019-11-27 13:30:56,270 [main] INFO KretoCRM -  
+2019-11-27 13:30:56,287 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 13:30:57,433 [main] INFO KretoCRM - Entered UserName
+2019-11-27 13:30:57,499 [main] INFO KretoCRM - Entered Password
+2019-11-27 13:30:59,336 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 13:31:02,612 [main] INFO KretoCRM - Clicked on UserInfo
+2019-11-27 13:31:04,141 [main] INFO KretoCRM - Clicked on Logout
+2019-11-27 13:31:06,155 [main] INFO KretoCRM - Successfully Logged out
+2019-11-27 13:31:06,159 [main] INFO KretoCRM -  
+2019-11-27 13:31:06,163 [main] INFO KretoCRM - Getting Base URL
+2019-11-27 13:31:07,490 [main] INFO KretoCRM - Entered UserName
+2019-11-27 13:31:07,566 [main] INFO KretoCRM - Entered Password
+2019-11-27 13:31:07,777 [main] INFO KretoCRM - Clicked Login button
+2019-11-27 13:31:10,818 [main] INFO KretoCRM - Invalid UserName / Password
+2019-11-27 13:31:10,819 [main] INFO KretoCRM -  
+2019-11-27 13:31:10,840 [main] INFO KretoCRM - Quit
+2019-11-27 15:00:09,562 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-27 15:00:31,508 [main] INFO KretoCRM - Quit
+2019-11-27 15:00:39,277 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-27 15:00:58,087 [main] INFO KretoCRM - Quit
+2019-11-27 15:12:04,731 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-27 15:12:27,536 [main] INFO KretoCRM - Quit
+2019-11-27 15:56:11,713 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-27 15:56:45,066 [main] INFO KretoCRM - Quit
+2019-11-27 17:30:18,293 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-27 17:30:45,300 [main] INFO KretoCRM - Quit
+2019-11-27 17:32:02,003 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-27 17:32:27,207 [main] INFO KretoCRM - Quit
+2019-11-27 17:40:48,426 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-27 17:41:11,029 [main] INFO KretoCRM - Quit
+2019-11-28 16:41:58,247 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-28 16:42:37,161 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-28 16:43:11,928 [main] INFO KretoCRM - Quit
+2019-11-28 16:44:45,076 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-28 16:45:10,020 [main] INFO KretoCRM - Quit
+2019-11-28 16:45:55,660 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-28 16:46:19,532 [main] INFO KretoCRM - Quit
+2019-11-28 17:24:51,654 [main] INFO KretoCRM - Initializing chrome browser
+2019-11-28 17:25:19,704 [main] INFO KretoCRM - Quit

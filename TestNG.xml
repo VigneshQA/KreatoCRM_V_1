@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="KreatoCRM">
+
+	<listeners>
+		<listener class-name = "com.kreatocrm.utilities.Reporting"/>
+	</listeners>
+
+	<test name="Login Page">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.kreatocrm.testCases.TS_Login_001" />
+		</classes>
+
+	</test>
+
+</suite>

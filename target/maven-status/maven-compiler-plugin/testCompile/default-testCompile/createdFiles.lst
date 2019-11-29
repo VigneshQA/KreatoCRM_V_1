@@ -1,0 +1,6 @@
+com\kreatocrm\utilities\XLUtils.class
+com\kreatocrm\utilities\Reporting.class
+com\kreatocrm\pageObjects\LoginPage.class
+com\kreatocrm\testCases\BaseClass.class
+com\kreatocrm\utilities\ReadConfig.class
+com\kreatocrm\testCases\TS_Login_001.class
