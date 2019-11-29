@@ -4,8 +4,8 @@
   <listeners>
     <listener class-name="com.kreatocrm.utilities.Reporting"/>
   </listeners>
-  <test thread-count="5" name="Headless Browser Firefox(failed)">
-    <parameter name="browser" value="HeadlessFirefox"/>
+  <test thread-count="5" name="Login Page(failed)">
+    <parameter name="browser" value="chrome"/>
     <classes>
       <class name="com.kreatocrm.testCases.TS_Login_001">
         <methods>
@@ -15,5 +15,5 @@
         </methods>
       </class> <!-- com.kreatocrm.testCases.TS_Login_001 -->
     </classes>
-  </test> <!-- Headless Browser Firefox(failed) -->
+  </test> <!-- Login Page(failed) -->
 </suite> <!-- Failed suite [KreatoCRM] -->

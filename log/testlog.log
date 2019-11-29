@@ -1407,3 +1407,47 @@
 2019-11-29 15:18:32,358 - KretoCRM -INFO - Successfully Logged out
 2019-11-29 15:18:32,387 - KretoCRM -INFO - Quit
 2019-11-29 15:18:33,777 - KretoCRM -INFO - Initializing Headless Firefox Browser
+2019-11-29 16:41:21,799 - KretoCRM -INFO - Initializing chrome browser
+2019-11-29 16:41:35,211 - KretoCRM -INFO - Getting Base URL
+2019-11-29 16:41:37,617 - KretoCRM -INFO - Entered UserName
+2019-11-29 16:41:37,688 - KretoCRM -INFO - Entered Password
+2019-11-29 16:41:47,916 - KretoCRM -INFO - Clicked Login button
+2019-11-29 16:42:02,059 - KretoCRM -INFO - Quit
+2019-11-29 16:42:08,434 - KretoCRM -INFO - Initializing chrome browser
+2019-11-29 16:42:14,423 - KretoCRM -INFO - Getting Base URL
+2019-11-29 16:42:17,880 - KretoCRM -INFO - Entered UserName
+2019-11-29 16:42:17,942 - KretoCRM -INFO - Entered Password
+2019-11-29 16:42:18,430 - KretoCRM -INFO - Clicked Login button
+2019-11-29 16:42:20,742 - KretoCRM -INFO - Invalid UserName / Password
+2019-11-29 16:42:20,743 - KretoCRM -WARN - Login Failed
+2019-11-29 16:42:20,767 - KretoCRM -INFO - Quit
+2019-11-29 16:42:43,697 - KretoCRM -INFO - Initializing chrome browser
+2019-11-29 16:42:50,896 - KretoCRM -INFO - Getting Base URL
+2019-11-29 16:42:52,908 - KretoCRM -INFO - Entered UserName
+2019-11-29 16:42:52,982 - KretoCRM -INFO - Entered Password
+2019-11-29 16:42:53,484 - KretoCRM -INFO - Clicked Login button
+2019-11-29 16:42:55,591 - KretoCRM -INFO - Invalid UserName / Password
+2019-11-29 16:42:55,591 - KretoCRM -WARN - Login Failed
+2019-11-29 16:42:55,616 - KretoCRM -INFO - Quit
+2019-11-29 16:43:13,457 - KretoCRM -INFO - Initializing chrome browser
+2019-11-29 16:43:18,593 - KretoCRM -INFO - Getting Base URL
+2019-11-29 16:43:20,812 - KretoCRM -INFO - Entered UserName
+2019-11-29 16:43:21,004 - KretoCRM -INFO - Entered Password
+2019-11-29 16:43:21,378 - KretoCRM -INFO - Clicked Login button
+2019-11-29 16:43:24,424 - KretoCRM -INFO - Clicked Ok button in Multi Login Warining Popup
+2019-11-29 16:43:30,479 - KretoCRM -INFO - Quit
+2019-11-29 16:47:35,345 - KretoCRM -INFO - Initializing chrome browser
+2019-11-29 16:47:40,852 - KretoCRM -INFO - Getting Base URL
+2019-11-29 16:47:42,740 - KretoCRM -INFO - Entered UserName
+2019-11-29 16:47:42,804 - KretoCRM -INFO - Entered Password
+2019-11-29 16:47:43,246 - KretoCRM -INFO - Clicked Login button
+2019-11-29 16:47:48,552 - KretoCRM -INFO - Clicked Ok button in Multi Login Warining Popup
+2019-11-29 16:47:56,610 - KretoCRM -INFO - Quit
+2019-11-29 16:47:59,020 - KretoCRM -INFO - Initializing chrome browser
+2019-11-29 16:48:05,695 - KretoCRM -INFO - Getting Base URL
+2019-11-29 16:48:07,683 - KretoCRM -INFO - Entered UserName
+2019-11-29 16:48:07,767 - KretoCRM -INFO - Entered Password
+2019-11-29 16:48:08,073 - KretoCRM -INFO - Clicked Login button
+2019-11-29 16:48:10,161 - KretoCRM -INFO - Invalid UserName / Password
+2019-11-29 16:48:10,161 - KretoCRM -WARN - Login Failed
+2019-11-29 16:48:10,186 - KretoCRM -INFO - Quit
