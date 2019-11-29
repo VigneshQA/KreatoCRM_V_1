@@ -1,0 +1,854 @@
+									----	Java Hybrid Framework	----
+Phase 1:	Implementation
+Phase 2:	Execution
+Phase 3: 	Maintenance
+
+									----	Phase 1: Implementation	----
+---- Create Maven Project ----
+	1. Download Maven plugin from eclipse market place (M2E).
+	2. Create Maven Project
+		File -> New -> Other -> Maven -> Maven Project.
+		Enter Group ID and Artifact ID and Finish.
+	3. Delete default packages under "src/main/java" and "src/test/java"
+	
+	
+---- Create Packages and Folders ----
+	1. Create Packages under "src/test/java"
+		com.kreatocrm.pageObjects
+		com.kreatocrm.testCases
+		com.kreatocrm.testData
+	2. Create Folders under project
+		Drivers
+		Configuration
+		Screenshots
+				
+	
+---- POM.Xml ----
+	Add below dependencies in pom.xml
+	Search Dependencies in "https://mvnrepository.com/"
+	1. selenium-java
+	2. testng
+	3. poi
+	4. poi-ooxml
+	5. extentreports
+	6. commons-lang3
+	7. commons-io
+	8. log4j	
+	Note: github "https://github.com/pavanoltraining/inetbankingV1"
+	
+	
+---- Drivers ----
+	1. Copy and paste drivers in Drivers folder under project
+	
+	Note: Try to use webdriver handler. So no need to download drivers.
+	
+---- Creating PageObjects ----
+	1. Create new class "LoginPage.java" under "com.kreatocrm.pageObjects"
+		---- LoginPage.java ----
+			public class LoginPage 
+			{
+			
+				WebDriver ldriver;
+				
+				LoginPage(WebDriver rdriver)
+				{
+					ldriver = rdriver;
+					PageFactory.initElements(rdriver, this);
+				}
+			
+				@FindBy(name="Login$txtUserName")
+				@CacheLookup
+				WebElement txtUserName;
+				
+				@FindBy(name="Login$txtPassword")
+				@CacheLookup
+				WebElement txtPassword;
+				
+				@FindBy(name="Login$btnLogin")
+				@CacheLookup
+				WebElement btnLogin;
+				
+				public void setUserName(String username){txtUserName.sendKeys(username);}
+				public void setPassword(String password){txtPassword.sendKeys(password);}
+				public void setUserName(){btnLogin.click();}
+				
+			}
+			
+			
+			
+---- Creating BaseClass and TestCases ----
+	1. SetUp()		@BeforClass -> Create in BaseClass
+	2. Test()		@Test
+	3. Teardown()	@AfterClass -> Create in BaseClass
+	
+	1. Create Class "BaseClass" under "com.kreatocrm.testCases"
+		---- BaseClass.java ----
+			public class BaseClass {
+			
+				public String baseURL = "qa.kreatocrm.com";
+				public String username = "Vignesh"; 
+				public String password = "3006";
+				public static WebDriver driver;
+				
+				@BeforeClass
+				public void setup()
+				{
+					System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"//Drivers//chromedriver.exe");
+					driver = new ChromeDriver();
+				}
+				
+				@AfterClass
+				public void teardown()
+				{
+					driver.quit();
+				}
+				
+			}
+	
+	2. Create Class "TS_Login_001" under "com.kreatocrm.testCases"
+		---- TS_Login_001.java ----
+			public class TS_Login_001 extends BaseClass{
+			
+				@Test
+				public void TC_001()
+				{
+					driver.get(baseURL);
+					LoginPage lp = new LoginPage(driver);
+					lp.setUserName(username);
+					lp.setPassword(password);
+					lp.clickLogin();
+				}
+				
+			}		
+			
+---- Add logs to TestCases ----
+	PreReqisite
+	1. Log4j.jar
+	2. Log4j.properties
+	
+	1. Declare "public static Logger logger;" as global variable in BaseClass
+	2. Add "logger = Logger.getLogger("KretoCRM");" in BaseClass -> @BeforeClass
+	3. Add "PropertyConfigurator.configure("log4j.properties");" in BaseClass -> @BeforeClass
+	
+	---- BaseClass.java ----
+		public static Logger logger;
+		
+		@BeforeClass
+		public void setup()
+		{
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"//Drivers//chromedriver.exe");
+			driver = new ChromeDriver();
+			
+			/* Log4j Configuration */
+			logger = Logger.getLogger("KretoCRM");
+			PropertyConfigurator.configure("log4j.properties");
+		}
+		
+	---- Log4j.properties ----
+		// Here we have defined root logger
+		log4j.rootLogger=INFO,CONSOLE,R,HTML,TTCC
+		 
+		// Here we define the appender
+		log4j.appender.CONSOLE=org.apache.log4j.ConsoleAppender
+		log4j.appender.R=org.apache.log4j.RollingFileAppender
+		log4j.appender.TTCC=org.apache.log4j.RollingFileAppender
+		log4j.appender.HTML=org.apache.log4j.FileAppender
+		 
+		// Here we define log file location
+		log4j.appender.R.File=./log/testlog.log
+		log4j.appender.TTCC.File=./log/testlog1.log
+		log4j.appender.HTML.File=./log/application.html
+		 
+		// Here we define the layout and pattern
+		log4j.appender.CONSOLE.layout=org.apache.log4j.PatternLayout
+		log4j.appender.CONSOLE.layout.ConversionPattern= %5p [%t] (%F:%L)- %m%n
+		log4j.appender.R.layout=org.apache.log4j.PatternLayout
+		log4j.appender.R.layout.ConversionPattern=%d - %c -%p - %m%n
+		log4j.appender.TTCC.layout=org.apache.log4j.TTCCLayout
+		log4j.appender.TTCC.layout.DateFormat=ISO8601
+		log4j.appender.HTML.layout=org.apache.log4j.HTMLLayout
+		log4j.appender.HTML.layout.Title=Application log
+		log4j.appender.HTML.layout.LocationInfo=true
+					
+	4. Now add logs to test cases like "logger.info("Entered UserName");"
+	5. After execution, Log4j creates new Log folder in project and that contains logs.
+	
+	
+---- Reading common values from Properties file ----
+	1. config.properties -> Configuration folder
+	2. ReadConfig.java -> Reads data from config.properties file -> Utility file
+		// Base class get data from ReadConfig.java and ReadConfig.java get data from config.properties
+	
+	Steps for config.properties
+	1. Create new file under "Configuration" folder and file name is "config.properties"
+	2. Add variables and values like "baseURL = qa.kreatocrm.com"
+		---- config.properties ----
+			baseURL = https://qa.kreatocrm.com/
+			username = Vignesh
+			password = 3006
+			chromepath = ./Drivers\\chromedriver.exe
+			iepath = ./Drivers\\IEDriverServer.exe
+			firefoxpath = ./Drivers\\geckodriver.exe
+	
+	Steps for ReadConfig.java
+	1. Create new class "ReadConfig.java" under utilites package.
+		---- ReadConfig.java ----
+				public class ReadConfig {
+			
+					Properties pro;
+					
+					public ReadConfig()
+					{
+						File src = new File("./Configuration/config.properties");
+				
+						try {
+							FileInputStream fis = new FileInputStream(src);
+							pro = new Properties();
+							pro.load(fis);
+						} catch (Exception e) {
+							System.out.println("Exception is " + e.getMessage());
+						}
+					}
+					
+					public String getApplicationURL()
+					{
+						String url=pro.getProperty("baseURL");
+						return url;
+					}
+					
+					public	String getUserName()
+					{
+						String username = pro.getProperty("username");
+						return username;
+					}
+					
+					public	String getPassword()
+					{
+						String password = pro.getProperty("password");
+						return password;
+					}
+						
+					public	String getChromePath()
+					{
+						String chromepath = pro.getProperty("chromepath");
+						return chromepath;
+					}
+					
+					public	String getIEPath()
+					{
+						String iepath = pro.getProperty("iepath");
+						return iepath;
+					}
+					
+					public	String getFireFoxPath()
+					{
+						String firefoxpath = pro.getProperty("firefoxpath");
+						return firefoxpath;
+					}
+										
+				}
+	2. Whenever adding new variables, should be added in config.properties as well as ReadConfig.java.
+	
+	Steps for BaseClass modification
+	1. Create ReadConfig object in BaseClass.
+		ReadConfig readconfig = new ReadConfig();		// Creating an object for ReadConfig.java to read data from config.properties file
+	2. Get the values in below format
+		public String baseURL = readconfig.getApplicationURL();
+		public String username = readconfig.getUserName(); 
+		public String password = readconfig.getPassword();	
+			
+			
+---- Run TestCases in desired browsers using XML ----
+	1. Add @Parameters("browser") in BaseClass -> @BeforeClass
+	2. Update BaseClass as below
+	---- BaseClass.java ----
+			@Parameters("browser")
+			@BeforeClass
+			public void setup(String br)
+			{
+				/* Log4j Configuration */
+				logger = Logger.getLogger("KretoCRM");
+				PropertyConfigurator.configure("log4j.properties");
+				
+				/* Initializing browser based on input "br" */
+				if(br.equals("chrome"))									
+				{
+					logger.info("Initializing chrome browser");
+					System.setProperty("webdriver.chrome.driver", readconfig.getChromePath());
+					driver = new ChromeDriver();
+				}
+				
+				else if(br.equals("ie"))
+				{
+					logger.info("Initializing IE browser");
+					System.setProperty("webdriver.ie.driver", readconfig.getIEPath());
+					driver = new InternetExplorerDriver();
+				}
+				
+				else if(br.equals("firefox"))
+				{
+					logger.info("Initializing firefox browser");
+					System.setProperty("webdriver.chrome.driver", readconfig.getChromePath());
+					driver = new FirefoxDriver();
+				}
+				
+			}
+	
+	3. Create new "TestNG.xml" file under project.
+		---- TestNG.xml ----
+		<?xml version="1.0" encoding="UTF-8"?>
+		<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+		
+		<suite name="KreatoCRM">
+		
+				<test name="Login Page">
+				<parameter name="browser" value="chrome" />
+				<classes>
+					<class name="com.kreatocrm.testCases.TS_Login_001" />
+				</classes>
+		
+			</test>
+		
+		</suite>
+		
+	4. Now run TestNG.xml as TestNG Suit.
+
+
+---- Add Extent Report ----
+	Pre-Requisite
+		1. jar -> pom.xml
+		2. extent-config.xml
+		3. listener (Reporting.java) -> Utility file
+		4. Add entry in TestNG.xml file.
+		5. Base Class and TestCase changes for taking screen shot.
+		
+	1. Add extent-config.xml file under project.
+	---- extent-config.xml ----
+		<extentreports>
+		    <configuration>
+		        <!-- report theme -->
+		        <!-- standard, dark -->
+		        <theme>dark</theme>
+		    
+		        <!-- document encoding -->
+		        <!-- defaults to UTF-8 -->
+		        <encoding>UTF-8</encoding>
+		        
+		        <!-- protocol for script and stylesheets -->
+		        <!-- defaults to https -->
+		        <protocol>https</protocol>
+		        
+		        <!-- title of the document -->
+		        <documentTitle>Extent</documentTitle>
+		        
+		        <!-- report name - displayed at top-nav -->
+		        <reportName>Automation Report</reportName>
+		        
+		        <!-- location of charts in the test view -->
+		        <!-- top, bottom -->
+		        <testViewChartLocation>bottom</testViewChartLocation>
+				
+		        <!-- custom javascript -->
+		        <scripts>
+		            <![CDATA[
+		                $(document).ready(function() {
+		                    
+		                });
+		            ]]>
+		        </scripts>
+		        
+		        <!-- custom styles -->
+		        <styles>
+		            <![CDATA[
+		                
+		            ]]>
+		        </styles>
+		    </configuration>
+		</extentreports>
+	
+	2. Add Reporting.java file under utilities.
+	---- Reporting.java ----
+		import java.io.File;
+		import java.io.IOException;
+		import java.text.SimpleDateFormat;
+		import java.util.Date;
+		
+		import org.testng.ITestContext;
+		import org.testng.ITestResult;
+		import org.testng.TestListenerAdapter;
+		
+		import com.aventstack.extentreports.ExtentReports;
+		import com.aventstack.extentreports.ExtentTest;
+		import com.aventstack.extentreports.Status;
+		import com.aventstack.extentreports.markuputils.ExtentColor;
+		import com.aventstack.extentreports.markuputils.MarkupHelper;
+		import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+		import com.aventstack.extentreports.reporter.configuration.Theme;
+		
+		public class Reporting extends TestListenerAdapter
+		{
+			public ExtentHtmlReporter htmlReporter;
+			public ExtentReports extent;
+			public ExtentTest logger;
+			
+				
+			public void onStart(ITestContext testContext)
+			{
+				String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());//time stamp
+				String repName="Test-Report-"+timeStamp+".html";
+				
+				htmlReporter=new ExtentHtmlReporter(System.getProperty("user.dir")+ "/test-output/"+repName);//specify location of the report
+				htmlReporter.loadXMLConfig(System.getProperty("user.dir")+ "/extent-config.xml");
+				
+				extent=new ExtentReports();
+				
+				extent.attachReporter(htmlReporter);
+				extent.setSystemInfo("Host name","localhost");
+				extent.setSystemInfo("Environemnt","QA");
+				extent.setSystemInfo("user","Vingesh");
+				
+				htmlReporter.config().setDocumentTitle("Kreato CRM Test Result"); // Tile of report
+				htmlReporter.config().setReportName("Test Automation Report"); // name of the report
+				//htmlReporter.config().setTestViewChartLocation(ChartLocation.TOP); //location of the chart
+				htmlReporter.config().setTheme(Theme.DARK);
+			}
+			
+			public void onTestSuccess(ITestResult tr)
+			{
+				logger=extent.createTest(tr.getName()); // create new entry in th report
+				logger.log(Status.PASS,MarkupHelper.createLabel(tr.getName(),ExtentColor.GREEN)); // send the passed information to the report with GREEN color highlighted
+			}
+			
+			public void onTestFailure(ITestResult tr)
+			{
+				logger=extent.createTest(tr.getName()); // create new entry in th report
+				logger.log(Status.FAIL,MarkupHelper.createLabel(tr.getName(),ExtentColor.RED)); // send the Failed information to the report with RED color highlighted
+				
+				String screenshotPath=System.getProperty("user.dir")+"\\Screenshots\\"+tr.getName()+".png";
+				
+				File f = new File(screenshotPath); 
+				
+				if(f.exists())
+				{
+				try {
+					logger.fail("Screenshot is below:" + logger.addScreenCaptureFromPath(screenshotPath));
+					} 
+				catch (IOException e) 
+						{
+						e.printStackTrace();
+						}
+				}
+				
+			} 
+	
+	3. Add entry in TestNG.xml file
+		---- TestNG.xml ----
+			<listeners>
+				<listener class-name = "com.kreatocrm.utilities.Reporting"/>
+			</listeners>
+	
+	4. BaseClass and TestCase changes for taking screenshot
+		1. BaseClass -> Add below code below "@AfterClass"
+		---- BaseClass.java ----
+			/*Method to take Screenshot*/							// Call "CaptureScreen(driver , testcaseName)" in failure case
+			public void captureScreen(WebDriver driver, String tname) throws IOException {
+				TakesScreenshot ts = (TakesScreenshot) driver;
+				File source = ts.getScreenshotAs(OutputType.FILE);
+				File target = new File(System.getProperty("user.dir") + "/Screenshots/" + tname + ".png");
+				FileUtils.copyFile(source, target);
+			}
+			
+		2. Call "CaptureScreen(driver , testcaseName)" if there is any failure case in testCase.
+		---- TC_01_Login_001.java ----
+			if(driver.getTitle().equals(homepagetitle)) {
+				Assert.assertTrue(true);
+				logger.info("TestCase Passed");
+			}
+			else {
+				logger.warn("TestCase Failed");
+				Assert.assertTrue(false);
+				captureScreen(driver, "TC_01_Login_001");        <-
+				logger.info("Screen shot taken");
+			}
+		
+	5. After execution open the test report from Project -> test-output -> report name with current time stamp.
+	
+---- Data Driven Test ----
+	Pre-Requisite
+		1. Apache poi jar -> pom.xml
+		2. Excel file (Test Data)
+		3. XLUtils -> Utility file
+		4. @DataProvider  -> TestCase
+	
+	1. Add XLUtils.java under utilities package
+	---- XLUtils ----
+		import java.io.FileInputStream;
+		import java.io.FileOutputStream;
+		import java.io.IOException;
+		
+		import org.apache.poi.ss.usermodel.DataFormatter;
+		import org.apache.poi.xssf.usermodel.XSSFCell;
+		import org.apache.poi.xssf.usermodel.XSSFRow;
+		import org.apache.poi.xssf.usermodel.XSSFSheet;
+		import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+		
+		public class XLUtils {
+			
+			public static FileInputStream fi;
+			public static FileOutputStream fo;
+			public static XSSFWorkbook wb;
+			public static XSSFSheet ws;
+			public static XSSFRow row;
+			public static XSSFCell cell;
+		
+			
+			
+			public static int getRowCount(String xlfile,String xlsheet) throws IOException 
+			{
+				fi=new FileInputStream(xlfile);
+				wb=new XSSFWorkbook(fi);
+				ws=wb.getSheet(xlsheet);
+				int rowcount=ws.getLastRowNum();
+				wb.close();
+				fi.close();
+				return rowcount;		
+			}
+			
+			
+			public static int getCellCount(String xlfile,String xlsheet,int rownum) throws IOException
+			{
+				fi=new FileInputStream(xlfile);
+				wb=new XSSFWorkbook(fi);
+				ws=wb.getSheet(xlsheet);
+				row=ws.getRow(rownum);
+				int cellcount=row.getLastCellNum();
+				wb.close();
+				fi.close();
+				return cellcount;
+			}
+			
+			
+			public static String getCellData(String xlfile,String xlsheet,int rownum,int colnum) throws IOException
+			{
+				fi=new FileInputStream(xlfile);
+				wb=new XSSFWorkbook(fi);
+				ws=wb.getSheet(xlsheet);
+				row=ws.getRow(rownum);
+				cell=row.getCell(colnum);
+				String data;
+				try 
+				{
+					DataFormatter formatter = new DataFormatter();
+		            String cellData = formatter.formatCellValue(cell);
+		            return cellData;
+				}
+				catch (Exception e) 
+				{
+					data="";
+				}
+				wb.close();
+				fi.close();
+				return data;
+			}
+			
+			public static void setCellData(String xlfile,String xlsheet,int rownum,int colnum,String data) throws IOException
+			{
+				fi=new FileInputStream(xlfile);
+				wb=new XSSFWorkbook(fi);
+				ws=wb.getSheet(xlsheet);
+				row=ws.getRow(rownum);
+				cell=row.createCell(colnum);
+				cell.setCellValue(data);
+				fo=new FileOutputStream(xlfile);
+				wb.write(fo);		
+				wb.close();
+				fi.close();
+				fo.close();
+			}
+						
+		}	
+	
+	2. Add Excel file (Test Data) under testData package
+	3. Add @DataProvider annotation in testCase
+		---- TS_Login_001.java ----
+			@DataProvider(name="LoginCredentials")
+			String [][] getData() throws IOException
+			{
+				String path=System.getProperty("user.dir")+"/src/test/java/com/kreatocrm/testData/LoginCredentials.xlsx";
+				
+				int rownum=XLUtils.getRowCount(path, "Sheet1");
+				int colcount=XLUtils.getCellCount(path,"Sheet1",1);
+				
+				String logincredentials[][]=new String[rownum][colcount];
+				
+				for(int i=1;i<=rownum;i++)
+				{
+					for(int j=0;j<colcount;j++)
+					{
+						logincredentials[i-1][j]=XLUtils.getCellData(path,"Sheet1", i,j);
+					}
+						
+				}
+			return logincredentials;
+			}
+			
+	4. Modify @Test as below in testCase
+		---- TS_Login_001.java ----
+			@Test(dataProvider="LoginCredentials")
+			public void loginDDT(String userName,String Password) throws InterruptedException, IOException
+			{
+				logger.info("Getting Base URL");
+				driver.get(baseURL);
+				LoginPage lp = new LoginPage(driver);
+				lp.setUserName(userName);
+				logger.info("Entered UserName");
+				lp.setPassword(Password);
+				logger.info("Entered Password");
+				lp.clickLogin();
+				logger.info("Clicked Login button");
+				Thread.sleep(3000);
+				
+				try {
+						lp.btnMLWOk.isDisplayed();
+						lp.clickMultiLoginOk();
+						logger.info("Clicked Ok button in Multi Login Warining Popup");
+						Thread.sleep(2000);			
+					}
+				catch (Exception e) {}
+				
+				if(driver.getPageSource().contains("Invalid user id") || driver.getPageSource().contains("Invalid password"))
+				{
+					if(username==userName && password == Password) 
+					{
+						logger.info("Valid UserName and Password");
+						logger.warn("Login Failed");
+						Assert.assertTrue(false);
+						captureScreen(driver, "TC_02_Login_001");
+						logger.info("Screen shot taken");
+					}
+					else 
+					{
+						logger.info("Invalid UserName / Password");
+					}
+					
+				}
+				lp.clickUserInfo();
+				logger.info("Clicked on UserInfo");
+				lp.clickLogout();
+				logger.info("Clicked on Logout");
+				Thread.sleep(2000);
+				
+				if(driver.getTitle().contains("Login"))
+				{
+					logger.info("Successfully Logged out");
+					Assert.assertTrue(true);
+				}
+				
+				else
+				{
+					logger.info("Logout failed");
+					Assert.assertTrue(false);
+					captureScreen(driver, "TC_01_Login_001");
+					logger.info("Screen shot taken");
+				}
+				
+			}
+	5. Now execute TestNG.xml file
+	
+---- Generating Dynamic Email Ids , Passwords and Contact No----
+	1. Create User defined function under BaseClass
+	---- BaseClass.java ----
+		/*Method to generate Random Email ID*/
+		public String randomEmailID()
+		{
+			String generatedEmailID = RandomStringUtils.randomAlphabetic(8);
+			return(generatedEmailID+"@gmail.com");
+		}
+	2. Modify @test as below in testCases
+	---- TS_Login_001.java ----
+		@Test
+		public void dynamicEmailID() throws InterruptedException
+		{
+			driver.get(baseURL);
+			LoginPage lp = new LoginPage(driver);
+			lp.setUserName(randomEmailID());
+			Thread.sleep(10000);
+		}
+	3. Same as the email id, password can be generated. Modify the base class as below
+	---- BaseClass.java ----
+		/*Method to generate Random Password*/
+		public String randomPassword()
+		{
+			String generatedPassword = RandomStringUtils.randomAlphabetic(8);
+			return(generatedPassword);
+		}
+	4. Use the random generated password where ever needed
+	5. Modify the BaseCass as below for random contact No.
+	---- BaseClass.java ----
+		/*Method to generate Random Password*/
+		public String randomContactNO()
+		{
+			String generatedContactNO = RandomStringUtils.randomNumeric(10);
+			return(generatedContactNO);
+		}
+		
+		
+
+									----	Phase 2: Execution	----		
+---- Executing TestCases using Maven POM.xml ----
+	1. Need to add two plugins in pom.xml
+		1. Compiler plugin
+		2. Surefire plugin
+	2. Add below code above <dependencies> tag in pom.xml
+	---- pom.xml ----
+		<!-- Plug-ins required for executing Tests  -->
+		<build>
+			<plugins>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<configuration>
+						<source>1.6</source>
+						<target>1.6</target>
+					</configuration>
+				</plugin>
+			<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-surefire-plugin</artifactId>
+					<version>2.18.1</version>
+					<configuration>
+						<suiteXmlFiles>
+							<!-- TestNG suite XML files -->
+							<suiteXmlFile>testng.xml</suiteXmlFile>
+						</suiteXmlFiles>
+					</configuration>
+				</plugin>
+			
+			</plugins>
+		
+		</build>
+		
+	3. Right click on pom.xml -> Run As -> Maven Test
+	4. ---- Resolving first time errors ----
+		1. [ERROR] No compiler is provided in this environment. Perhaps you are running on a JRE rather than a JDK?
+			1. Navigate to Window -> Preferences Expand Java -> Installed JREs
+			2. If there is jre exsisting, then need to change as jdk
+			3. Remove jre
+			4. Add -> Standard VM -> Next
+			5. In JRE home "C:\Program Files\Java\jdk1.8.0"
+			6. Click on Finish -> Apply and close
+				
+---- Executing TestCases using Maven CLI ----
+	PreRequisite
+		1. Install Maven on windows -> Download through below link.
+			Download link: http://apachemirror.wuchna.com/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.zip
+		2. Unzip the file in  "C:\apache-maven-3.6.3" drive.
+		3. Navigate to This PC -> Properties -> Advanced system settings -> Environment Variables -> System Variables -> New
+		4. Add Name "MAVEN_HOME" and Path "C:\apache-maven-3.6.3"
+		5. Navigate to This PC -> Properties -> Advanced system settings -> Environment Variables -> System Variables -> New
+		6. Add Name "M2_HOME" and Path "C:\apache-maven-3.6.3"
+		7. Navigate to This PC -> Properties -> Advanced system settings -> Environment Variables -> System Variables -> path -> Edit
+		8. Add below in path variable
+			C:\apache-maven-3.6.3\bin
+			C:\Program Files\Java\jdk1.8.0\bin
+			%M2_HOME%\bin
+			C:\Program Files\Java\jdk1.8.0\lib
+		9. Open Command Prompt and type "mvn -version"
+	1. Get project location -> In Eclipse, Right click on project -> Properties -> Resource -> Copy Location
+	2. Open CMD and navigate to project location
+		cd project location
+	3. To Execute: "mvn clean install" in cmd
+	
+---- Executing TestCases using Run.bat ----
+	1. Navigate to Project location using windows explorer
+	2. Create a new file "run.bat"
+	3. Edit and type below
+		cd project location
+		mvn clean install
+	4. Now run "run.bat" file
+	
+---- Executing TestCases using Jenkins (Continuous Integration Tool) ----
+	Maven -> Build Tool
+	Jenkins -> Continuous Integration Tool
+	Git -> Repository
+	GitHub -> Repository
+	
+	1. Download Jenkins ->  https://jenkins.io/download/
+	2. Install Jenkins
+	3. Configuration
+		1. Navigate to http://localhost:8080/
+			if you want to change port number, then use "java -jar jenkins.war --httpPort=8081" from installed location cmd
+			Iam using "8029"
+		2. First time, Unlock Jenkins -> Ask for Administator Password
+		3. To get Password, Navigate to Jenkins installed path -> Secrets folder -> initialAdminPassword
+		4. Install Suggested plugins
+		5. Create first Admin User
+	4. Executing project using free style project
+		1. Navigate to jenkins page
+		2. Click on New Item
+		3. Enter Name and click on Free style project -> Click Ok
+		4. In Configuration page, Navigate to Build section
+		5. Select "Execute windows batch command"
+		6. Enter the below in Command
+			cd project location
+			mvn clean install
+		7. Click on apply and save
+		8. Click on Build Now to execute the project
+	5. Executing project using Maven (pom.xml)
+		1. Navigate to Jenkins Home page -> Manage Plugins -> Available Tab -> Select All Maven related plugins -> Install without restart.
+		2. Navigate to Jenkins Home page -> Manage Plugins -> Global Tool Configuration -> Click on Add JDk
+		3. Give some name "MyJDK"
+		4. In JAVA_HOME, Enter JAVA_HOME environment variable value "C:\Program Files\Java\jdk1.8.0"
+		5. Click on Apply and Save
+		6. Navigate to jenkins page
+		7. Click on New Item
+		8. Enter Name and select Maven -> Click Ok
+		9. Navigate to Build section
+		10. Give the location of the pom.xml file in Root POM field.
+			C:\Users\ns028\Desktop\Vignesh\Kreato\KreatoCRM Automation Workspace\KreatoCRM\pom.xml
+		11. Enter "clean install" in Goals and options field
+		12. Click on apply and save
+		13. Click on Build Now to run the project
+		
+
+---- GIT & GITHUB ----
+	1. GIT - Local repository
+	2. GITHUB - Remote repository
+	
+	---- Prerequisite ----			
+	1. Install git in local system
+		1. Download from "https://git-scm.com/download/win"
+	2. Create account in github "https://github.com/"
+	3. In Github, Click on new repository
+		1. Enter repository name
+		2. Click on create repository
+		3. Get the URL "https://github.com/VigneshQA/KreatoCRM_V_1.git"
+	
+	---- Steps ----
+	1. Navigate to project home directory
+	2. Right click and select git bash here
+	
+	---- Git Commands ----
+	1. [First Time]git init -> Create an empty git repository (Local repository)
+	2. [First Time]git remote add origin "https://github.com/VigneshQA/KreatoCRM_V_1.git"
+->	3. git status -> To check the status
+->	4. git add -A -> Adding all new uncommitted to staging
+		After this command check again status
+	5. [First Time]git config --global user.name "VigneshQA(UserName of github)"
+	6. [First Time]git config --local user.email "vigneshb@navrita.com(Email used in github)"
+->	7. git commit -m "Commit Message"
+		After this command check again status
+->	8. git push -u origin master -> Push all committed files to github repository  git--to--github
+->	9. git pull origin master -> To pull the files from github  github--to--git
+	10.	clear
+	
+---- Executing project from Jenkins through github ----
+	1. Create new item in jenkins
+	2. In configuration page, Navigate to "Source Code Management" section
+	3. Select "Git" -> Provide git repository URL "https://github.com/VigneshQA/KreatoCRM_V_1.git"
+	4. Navigate to Build section -> Root POM "pom.xml" -> Goals and options "clean install"
+	5. Click on Apply and Save	
+	6. Click on Build Now
+	
+	Note: If any error in adding repository URL, check in Jenkins -> Manage Jenkins -> Global Tool Configuration -> Git section
+			Add "C:\Program Files\Git\cmd\git.exe" in Path to Git executable
