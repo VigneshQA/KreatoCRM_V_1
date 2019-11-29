@@ -7,9 +7,11 @@ import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -125,6 +127,18 @@ public class BaseClass {
 	{
 		String generatedContactNO = RandomStringUtils.randomNumeric(10);
 		return(generatedContactNO);
+	}
+	
+	/*Method to Flash Element*/
+	public static void Flash(WebElement element ,WebDriver driver)
+	{
+		JavascriptExecutor js = ((JavascriptExecutor) driver);
+		//String bgcolor = element.getCssValue("backgroundColor");
+		for(int i=0;i<500;i++)
+		{
+			js.executeScript("argument[0].style.backgroundColor = '#000000'", element);
+			js.executeScript("argument[0].style.backgroundColor = '#111111'", element);
+		}
 	}
 	
 }
