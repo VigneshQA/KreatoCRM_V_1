@@ -9,10 +9,42 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">KreatoCRM</th></tr>
-<tr><td><a href="#t0">Login Page</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">23,853</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Login Page</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">18,131</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Headless Browser Firefox</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">76</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">1</th><th class="num attn">1</th><th class="num">0</th><th class="num">0</th><th class="num">18,207</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">KreatoCRM</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Login Page &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.kreatocrm.testCases.TS_Login_001</td><td><a href="#m0">dynamicEmailID</a></td><td rowspan="1">1574847729720</td><td rowspan="1">17787</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">KreatoCRM</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Login Page &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.kreatocrm.testCases.TS_Login_001</td><td><a href="#m0">TC_01_Login_001</a></td><td rowspan="1">1575020901267</td><td rowspan="1">11096</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Headless Browser Firefox &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.kreatocrm.testCases.TS_Login_001</td><td><a href="#m1">setup</a></td><td rowspan="1">1575020913775</td><td rowspan="1">53</td></tr><tr><th colspan="4">Headless Browser Firefox &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">com.kreatocrm.testCases.TS_Login_001</td><td><a href="#m2">teardown</a></td><td rowspan="1">1575020913845</td><td rowspan="1">-1575020913845</td></tr><tr><th colspan="4">Headless Browser Firefox &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.kreatocrm.testCases.TS_Login_001</td><td><a href="#m3">TC_01_Login_001</a></td><td rowspan="1">1575020913840</td><td rowspan="1">0</td></tr></tbody>
 </table>
-<h2>Login Page</h2><h3 id="m0">com.kreatocrm.testCases.TS_Login_001#dynamicEmailID</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Login Page</h2><h3 id="m0">com.kreatocrm.testCases.TS_Login_001#TC_01_Login_001</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Headless Browser Firefox</h2><h3 id="m1">com.kreatocrm.testCases.TS_Login_001#setup</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>HeadlessFirefox</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: VISTA
+Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;
+System info: host: &apos;NSWS005&apos;, ip: &apos;192.168.0.15&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.FirefoxBinary.&lt;init&gt;(FirefoxBinary.java:99)
+	at org.openqa.selenium.firefox.FirefoxOptions$$Lambda$303/28153725.get(Unknown Source)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.openqa.selenium.firefox.FirefoxOptions.getBinary(FirefoxOptions.java:210)
+	at org.openqa.selenium.firefox.GeckoDriverService$Builder.withOptions(GeckoDriverService.java:159)
+	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:181)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:154)
+	at com.kreatocrm.testCases.BaseClass.setup(BaseClass.java:87)
+	at java.util.ArrayList.forEach(ArrayList.java:1234)
+... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.kreatocrm.testCases.TS_Login_001#teardown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.kreatocrm.testCases.TS_Login_001#TC_01_Login_001</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: VISTA
+Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;
+System info: host: &apos;NSWS005&apos;, ip: &apos;192.168.0.15&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.FirefoxBinary.&lt;init&gt;(FirefoxBinary.java:99)
+	at org.openqa.selenium.firefox.FirefoxOptions$$Lambda$303/28153725.get(Unknown Source)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.openqa.selenium.firefox.FirefoxOptions.getBinary(FirefoxOptions.java:210)
+	at org.openqa.selenium.firefox.GeckoDriverService$Builder.withOptions(GeckoDriverService.java:159)
+	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:181)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:154)
+	at com.kreatocrm.testCases.BaseClass.setup(BaseClass.java:87)
+	at java.util.ArrayList.forEach(ArrayList.java:1234)
+... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

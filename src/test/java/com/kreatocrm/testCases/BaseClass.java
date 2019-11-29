@@ -11,7 +11,9 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -57,8 +59,32 @@ public class BaseClass {
 		else if(br.equals("firefox"))
 		{
 			logger.info("Initializing firefox browser");
-			System.setProperty("webdriver.chrome.driver", readconfig.getChromePath());
+			System.setProperty("webdriver.gecko.driver", readconfig.getFireFoxPath());
 			driver = new FirefoxDriver();
+		}
+		
+		else if(br.equals("HeadlessChrome"))
+		{
+			logger.info("Initializing Headless Chrome Browser");
+			System.setProperty("webdriver.chrome.driver", readconfig.getChromePath());
+			
+			ChromeOptions options = new ChromeOptions();
+			options.setHeadless(true);
+			//options.addArguments("--headless");
+			
+			driver = new ChromeDriver(options);			
+		}
+		
+		else if(br.equals("HeadlessFirefox"))
+		{
+			logger.info("Initializing Headless Firefox Browser");
+			System.setProperty("webdriver.gecko.driver", readconfig.getFireFoxPath());
+			
+			FirefoxOptions options = new FirefoxOptions();
+			options.setHeadless(true);
+			//options.addArguments("--headless");
+			
+			driver = new FirefoxDriver(options);			
 		}
 		
 		driver.manage().window().maximize();

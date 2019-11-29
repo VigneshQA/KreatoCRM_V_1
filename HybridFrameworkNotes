@@ -852,3 +852,16 @@ Phase 3: 	Maintenance
 	
 	Note: If any error in adding repository URL, check in Jenkins -> Manage Jenkins -> Global Tool Configuration -> Git section
 			Add "C:\Program Files\Git\cmd\git.exe" in Path to Git executable
+			
+---- Git and GitHub plugins for Eclipse ----
+	1. In Eclipse, Install EGit plugin
+		Help -> Eclipse Market Place -> Search EGit and Install
+	2. Create / select existing git local repository in eclipse
+		1. Click on Open Perspective (Top right corner in eclipse)
+		2. Select Git and Open
+		3. Now Create / select existing git local repository in eclipse
+	3. Right Click on Project -> Team -> Share Project
+		Or Click on Commit
+	4. Drag and Drop UnStaged Changes to Staged Changes
+	5. Add Commit Message
+	6. Click on Commit and Push

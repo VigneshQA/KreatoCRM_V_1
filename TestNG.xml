@@ -9,11 +9,32 @@
 	</listeners>
 
 	<test name="Login Page">
+	
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.kreatocrm.testCases.TS_Login_001" />
 		</classes>
-
+	
 	</test>
+	
+	<!-- <test name="Headless Browser Chrome">
+	
+		<parameter name="browser" value="HeadlessChrome" />
+		<classes>
+			<class name="com.kreatocrm.testCases.TS_Login_001" />
+		</classes>
+	
+	</test> -->
+	
+	<!-- <test name="Headless Browser Firefox">
+	
+		<parameter name="browser" value="HeadlessFirefox" />
+		<classes>
+			<class name="com.kreatocrm.testCases.TS_Login_001" />
+		</classes>
+	
+	</test>  -->
+	
+	
 
 </suite>

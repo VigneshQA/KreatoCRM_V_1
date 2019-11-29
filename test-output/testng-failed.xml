@@ -4,16 +4,16 @@
   <listeners>
     <listener class-name="com.kreatocrm.utilities.Reporting"/>
   </listeners>
-  <test thread-count="5" name="Login Page(failed)">
-    <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="Headless Browser Firefox(failed)">
+    <parameter name="browser" value="HeadlessFirefox"/>
     <classes>
       <class name="com.kreatocrm.testCases.TS_Login_001">
         <methods>
-          <include name="loginDDT" invocation-numbers="0 1 2 3 4 6"/>
+          <include name="TC_01_Login_001"/>
           <include name="setup"/>
           <include name="teardown"/>
         </methods>
       </class> <!-- com.kreatocrm.testCases.TS_Login_001 -->
     </classes>
-  </test> <!-- Login Page(failed) -->
+  </test> <!-- Headless Browser Firefox(failed) -->
 </suite> <!-- Failed suite [KreatoCRM] -->

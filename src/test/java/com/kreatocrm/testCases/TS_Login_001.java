@@ -11,7 +11,7 @@ import com.kreatocrm.utilities.XLUtils;
 
 public class TS_Login_001 extends BaseClass{
 
-	//@Test
+	@Test
 	public void TC_01_Login_001() throws IOException, InterruptedException, Exception
 	{
 		logger.info("Getting Base URL");
@@ -127,7 +127,7 @@ public class TS_Login_001 extends BaseClass{
 		
 	}
 	
-	@Test
+	//@Test
 	public void dynamicEmailIDPasswordContactNo() throws InterruptedException
 	{
 		driver.get(baseURL);

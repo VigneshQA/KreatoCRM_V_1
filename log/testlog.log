@@ -1294,3 +1294,116 @@
 2019-11-28 17:25:19,704 - KretoCRM -INFO - Quit
 2019-11-29 12:59:25,962 - KretoCRM -INFO - Initializing chrome browser
 2019-11-29 12:59:50,797 - KretoCRM -INFO - Quit
+2019-11-29 14:56:50,663 - KretoCRM -INFO - Initializing chrome browser
+2019-11-29 14:56:57,566 - KretoCRM -INFO - Getting Base URL
+2019-11-29 14:57:01,077 - KretoCRM -INFO - Entered UserName
+2019-11-29 14:57:01,244 - KretoCRM -INFO - Entered Password
+2019-11-29 14:57:03,498 - KretoCRM -INFO - Clicked Login button
+2019-11-29 14:57:13,488 - KretoCRM -INFO - Clicked Ok button in Multi Login Warining Popup
+2019-11-29 14:57:15,760 - KretoCRM -INFO - Clicked on UserInfo
+2019-11-29 14:57:17,275 - KretoCRM -INFO - Clicked on Logout
+2019-11-29 14:57:19,340 - KretoCRM -INFO - Successfully Logged out
+2019-11-29 14:57:19,358 - KretoCRM -INFO - Getting Base URL
+2019-11-29 14:57:20,774 - KretoCRM -INFO - Entered UserName
+2019-11-29 14:57:20,860 - KretoCRM -INFO - Entered Password
+2019-11-29 14:57:21,794 - KretoCRM -INFO - Clicked Login button
+2019-11-29 14:57:24,200 - KretoCRM -INFO - Clicked on UserInfo
+2019-11-29 14:57:25,661 - KretoCRM -INFO - Clicked on Logout
+2019-11-29 14:57:27,687 - KretoCRM -INFO - Successfully Logged out
+2019-11-29 14:57:27,691 - KretoCRM -INFO - Quit
+2019-11-29 15:00:01,428 - KretoCRM -INFO - Initializing Headless Chrome Browser
+2019-11-29 15:00:05,926 - KretoCRM -INFO - Getting Base URL
+2019-11-29 15:00:07,853 - KretoCRM -INFO - Entered UserName
+2019-11-29 15:00:07,905 - KretoCRM -INFO - Entered Password
+2019-11-29 15:00:16,047 - KretoCRM -INFO - Clicked Login button
+2019-11-29 15:00:18,303 - KretoCRM -INFO - Clicked on UserInfo
+2019-11-29 15:00:19,620 - KretoCRM -INFO - Clicked on Logout
+2019-11-29 15:00:21,634 - KretoCRM -INFO - Successfully Logged out
+2019-11-29 15:00:21,666 - KretoCRM -INFO - Getting Base URL
+2019-11-29 15:00:22,729 - KretoCRM -INFO - Entered UserName
+2019-11-29 15:00:22,804 - KretoCRM -INFO - Entered Password
+2019-11-29 15:00:23,593 - KretoCRM -INFO - Clicked Login button
+2019-11-29 15:00:25,794 - KretoCRM -INFO - Clicked on UserInfo
+2019-11-29 15:00:27,159 - KretoCRM -INFO - Clicked on Logout
+2019-11-29 15:00:29,171 - KretoCRM -INFO - Successfully Logged out
+2019-11-29 15:00:29,176 - KretoCRM -INFO - Quit
+2019-11-29 15:02:20,408 - KretoCRM -INFO - Initializing chrome browser
+2019-11-29 15:02:26,279 - KretoCRM -INFO - Getting Base URL
+2019-11-29 15:02:28,233 - KretoCRM -INFO - Entered UserName
+2019-11-29 15:02:28,342 - KretoCRM -INFO - Entered Password
+2019-11-29 15:02:31,319 - KretoCRM -INFO - Clicked Login button
+2019-11-29 15:02:33,582 - KretoCRM -INFO - Clicked on UserInfo
+2019-11-29 15:02:34,909 - KretoCRM -INFO - Clicked on Logout
+2019-11-29 15:02:36,994 - KretoCRM -INFO - Successfully Logged out
+2019-11-29 15:02:37,028 - KretoCRM -INFO - Getting Base URL
+2019-11-29 15:02:38,146 - KretoCRM -INFO - Entered UserName
+2019-11-29 15:02:38,199 - KretoCRM -INFO - Entered Password
+2019-11-29 15:02:39,188 - KretoCRM -INFO - Clicked Login button
+2019-11-29 15:02:41,386 - KretoCRM -INFO - Clicked on UserInfo
+2019-11-29 15:02:42,840 - KretoCRM -INFO - Clicked on Logout
+2019-11-29 15:02:44,848 - KretoCRM -INFO - Successfully Logged out
+2019-11-29 15:02:44,853 - KretoCRM -INFO - Quit
+2019-11-29 15:02:46,846 - KretoCRM -INFO - Initializing Headless Chrome Browser
+2019-11-29 15:02:50,233 - KretoCRM -INFO - Getting Base URL
+2019-11-29 15:02:52,464 - KretoCRM -INFO - Entered UserName
+2019-11-29 15:02:52,517 - KretoCRM -INFO - Entered Password
+2019-11-29 15:02:55,721 - KretoCRM -INFO - Clicked Login button
+2019-11-29 15:02:57,964 - KretoCRM -INFO - Clicked on UserInfo
+2019-11-29 15:02:59,618 - KretoCRM -INFO - Clicked on Logout
+2019-11-29 15:03:01,640 - KretoCRM -INFO - Successfully Logged out
+2019-11-29 15:03:01,648 - KretoCRM -INFO - Getting Base URL
+2019-11-29 15:03:02,765 - KretoCRM -INFO - Entered UserName
+2019-11-29 15:03:02,818 - KretoCRM -INFO - Entered Password
+2019-11-29 15:03:03,656 - KretoCRM -INFO - Clicked Login button
+2019-11-29 15:03:05,872 - KretoCRM -INFO - Clicked on UserInfo
+2019-11-29 15:03:07,217 - KretoCRM -INFO - Clicked on Logout
+2019-11-29 15:03:09,230 - KretoCRM -INFO - Successfully Logged out
+2019-11-29 15:03:09,233 - KretoCRM -INFO - Quit
+2019-11-29 15:03:26,361 - KretoCRM -INFO - Initializing chrome browser
+2019-11-29 15:03:31,148 - KretoCRM -INFO - Getting Base URL
+2019-11-29 15:03:33,930 - KretoCRM -INFO - Entered UserName
+2019-11-29 15:03:33,999 - KretoCRM -INFO - Entered Password
+2019-11-29 15:03:35,522 - KretoCRM -INFO - Clicked Login button
+2019-11-29 15:03:37,742 - KretoCRM -INFO - Clicked on UserInfo
+2019-11-29 15:03:39,314 - KretoCRM -INFO - Clicked on Logout
+2019-11-29 15:03:41,331 - KretoCRM -INFO - Successfully Logged out
+2019-11-29 15:03:41,358 - KretoCRM -INFO - Quit
+2019-11-29 15:03:42,576 - KretoCRM -INFO - Initializing Headless Chrome Browser
+2019-11-29 15:03:46,326 - KretoCRM -INFO - Getting Base URL
+2019-11-29 15:03:48,150 - KretoCRM -INFO - Entered UserName
+2019-11-29 15:03:48,202 - KretoCRM -INFO - Entered Password
+2019-11-29 15:03:49,669 - KretoCRM -INFO - Clicked Login button
+2019-11-29 15:03:51,887 - KretoCRM -INFO - Clicked on UserInfo
+2019-11-29 15:03:53,154 - KretoCRM -INFO - Clicked on Logout
+2019-11-29 15:03:55,169 - KretoCRM -INFO - Successfully Logged out
+2019-11-29 15:03:55,173 - KretoCRM -INFO - Quit
+2019-11-29 15:10:35,155 - KretoCRM -INFO - Initializing firefox browser
+2019-11-29 15:10:35,683 - KretoCRM -INFO - Initializing Headless Chrome Browser
+2019-11-29 15:10:39,779 - KretoCRM -INFO - Getting Base URL
+2019-11-29 15:10:41,907 - KretoCRM -INFO - Entered UserName
+2019-11-29 15:10:41,961 - KretoCRM -INFO - Entered Password
+2019-11-29 15:10:45,276 - KretoCRM -INFO - Clicked Login button
+2019-11-29 15:10:47,512 - KretoCRM -INFO - Clicked on UserInfo
+2019-11-29 15:10:49,176 - KretoCRM -INFO - Clicked on Logout
+2019-11-29 15:10:51,191 - KretoCRM -INFO - Successfully Logged out
+2019-11-29 15:10:51,200 - KretoCRM -INFO - Quit
+2019-11-29 15:12:28,315 - KretoCRM -INFO - Initializing firefox browser
+2019-11-29 15:14:21,842 - KretoCRM -INFO - Initializing IE browser
+2019-11-29 15:14:32,016 - KretoCRM -INFO - Getting Base URL
+2019-11-29 15:14:36,993 - KretoCRM -INFO - Entered UserName
+2019-11-29 15:14:37,503 - KretoCRM -INFO - Entered Password
+2019-11-29 15:14:41,288 - KretoCRM -INFO - Clicked Login button
+2019-11-29 15:14:44,403 - KretoCRM -INFO - Clicked on UserInfo
+2019-11-29 15:14:46,461 - KretoCRM -INFO - Clicked on Logout
+2019-11-29 15:14:48,482 - KretoCRM -INFO - Successfully Logged out
+2019-11-29 15:14:48,508 - KretoCRM -INFO - Quit
+2019-11-29 15:18:15,458 - KretoCRM -INFO - Initializing chrome browser
+2019-11-29 15:18:21,283 - KretoCRM -INFO - Getting Base URL
+2019-11-29 15:18:23,576 - KretoCRM -INFO - Entered UserName
+2019-11-29 15:18:23,661 - KretoCRM -INFO - Entered Password
+2019-11-29 15:18:26,733 - KretoCRM -INFO - Clicked Login button
+2019-11-29 15:18:28,975 - KretoCRM -INFO - Clicked on UserInfo
+2019-11-29 15:18:30,343 - KretoCRM -INFO - Clicked on Logout
+2019-11-29 15:18:32,358 - KretoCRM -INFO - Successfully Logged out
+2019-11-29 15:18:32,387 - KretoCRM -INFO - Quit
+2019-11-29 15:18:33,777 - KretoCRM -INFO - Initializing Headless Firefox Browser
