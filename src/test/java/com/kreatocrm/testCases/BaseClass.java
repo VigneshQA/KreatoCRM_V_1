@@ -23,6 +23,8 @@ import org.testng.annotations.Parameters;
 
 import com.kreatocrm.utilities.ReadConfig;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class BaseClass {
 	
 	ReadConfig readconfig = new ReadConfig();		// Creating an object for ReadConfig.java to read data from config.properties file
@@ -47,21 +49,24 @@ public class BaseClass {
 		if(br.equals("chrome"))									
 		{
 			logger.info("Initializing chrome browser");
-			System.setProperty("webdriver.chrome.driver", readconfig.getChromePath());
+			WebDriverManager.chromedriver().setup();
+			//System.setProperty("webdriver.chrome.driver", readconfig.getChromePath());
 			driver = new ChromeDriver();
 		}
 		
 		else if(br.equals("ie"))
 		{
 			logger.info("Initializing IE browser");
-			System.setProperty("webdriver.ie.driver", readconfig.getIEPath());
+			WebDriverManager.iedriver().setup();
+			//System.setProperty("webdriver.ie.driver", readconfig.getIEPath());
 			driver = new InternetExplorerDriver();
 		}
 		
 		else if(br.equals("firefox"))
 		{
 			logger.info("Initializing firefox browser");
-			System.setProperty("webdriver.gecko.driver", readconfig.getFireFoxPath());
+			WebDriverManager.firefoxdriver().setup();
+			//System.setProperty("webdriver.gecko.driver", readconfig.getFireFoxPath());
 			driver = new FirefoxDriver();
 		}
 		
@@ -107,6 +112,15 @@ public class BaseClass {
 		File target = new File(System.getProperty("user.dir") + "/Screenshots/" + tname + ".png");
 		FileUtils.copyFile(source, target);
 	}
+	
+	/*Method to take Screenshot of Particular Element*/
+	public void captureElement(WebElement element, String tname) throws IOException
+	{
+		File source = element.getScreenshotAs(OutputType.FILE);
+		File target = new File(System.getProperty("user.dir") + "/Screenshots/" + tname + "-elmnt.png");
+		FileUtils.copyFile(source, target);
+	}
+	
 	
 	/*Method to generate Random Email ID*/
 	public String randomEmailID()
