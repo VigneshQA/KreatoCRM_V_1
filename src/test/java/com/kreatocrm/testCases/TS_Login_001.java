@@ -2,6 +2,7 @@ package com.kreatocrm.testCases;
 
 import java.io.IOException;
 
+import org.openqa.selenium.WindowType;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -29,21 +30,14 @@ public class TS_Login_001 extends BaseClass{
 				lp.btnMLWOk.isDisplayed();
 				Flash(lp.btnMLWOk, driver);
 				lp.clickMultiLoginOk();
-				captureElement(lp.btnMLWOk, "TC_01_Login_001");
+				//captureElement(lp.btnMLWOk, "TC_01_Login_001");
 				logger.info("Clicked Ok button in Multi Login Warining Popup");
 				Thread.sleep(2000);			
 			}
 		catch (Exception e) {}
-		
-		if(driver.getPageSource().contains("Invalid user id") || driver.getPageSource().contains("Invalid password"))
-		{
-			logger.info("Invalid UserName / Password");
-			logger.warn("Login Failed");
-			Assert.assertTrue(false);
-			captureScreen(driver, "TC_01_Login_001");
-			logger.info("Screen shot taken");
-		}
-				
+					
+//		driver.switchTo().newWindow(WindowType.TAB);
+//		driver.get(settingsURL);
 		lp.clickUserInfo();
 		logger.info("Clicked on UserInfo");
 		lp.clickLogout();

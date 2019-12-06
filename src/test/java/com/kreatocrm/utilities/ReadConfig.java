@@ -27,6 +27,12 @@ public class ReadConfig {
 		return url;
 	}
 	
+	public String getSettingsURL()
+	{
+		String url = pro.getProperty("SettingsPageURL");
+		return url;
+	}
+	
 	public	String getUserName()
 	{
 		String username = pro.getProperty("username");

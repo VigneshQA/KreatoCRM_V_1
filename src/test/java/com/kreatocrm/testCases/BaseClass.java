@@ -30,6 +30,7 @@ public class BaseClass {
 	ReadConfig readconfig = new ReadConfig();		// Creating an object for ReadConfig.java to read data from config.properties file
 	
 	public String baseURL = readconfig.getApplicationURL();
+	public String settingsURL = readconfig.getSettingsURL();
 	public String username = readconfig.getUserName(); 
 	public String password = readconfig.getPassword();
 	public String loginpagetitle = readconfig.getLoginpageTitle();
@@ -49,15 +50,16 @@ public class BaseClass {
 		if(br.equals("chrome"))									
 		{
 			logger.info("Initializing chrome browser");
-			WebDriverManager.chromedriver().setup();
-			//System.setProperty("webdriver.chrome.driver", readconfig.getChromePath());
+//			WebDriverManager.chromedriver().clearPreferences();
+//			WebDriverManager.chromedriver().setup();
+//			System.setProperty("webdriver.chrome.driver", readconfig.getChromePath());
 			driver = new ChromeDriver();
 		}
 		
 		else if(br.equals("ie"))
 		{
 			logger.info("Initializing IE browser");
-			WebDriverManager.iedriver().setup();
+//			WebDriverManager.iedriver().setup();
 			//System.setProperty("webdriver.ie.driver", readconfig.getIEPath());
 			driver = new InternetExplorerDriver();
 		}
@@ -65,7 +67,7 @@ public class BaseClass {
 		else if(br.equals("firefox"))
 		{
 			logger.info("Initializing firefox browser");
-			WebDriverManager.firefoxdriver().setup();
+//			WebDriverManager.firefoxdriver().setup();
 			//System.setProperty("webdriver.gecko.driver", readconfig.getFireFoxPath());
 			driver = new FirefoxDriver();
 		}
@@ -73,7 +75,7 @@ public class BaseClass {
 		else if(br.equals("HeadlessChrome"))
 		{
 			logger.info("Initializing Headless Chrome Browser");
-			System.setProperty("webdriver.chrome.driver", readconfig.getChromePath());
+//			System.setProperty("webdriver.chrome.driver", readconfig.getChromePath());
 			
 			ChromeOptions options = new ChromeOptions();
 			options.setHeadless(true);
@@ -85,7 +87,7 @@ public class BaseClass {
 		else if(br.equals("HeadlessFirefox"))
 		{
 			logger.info("Initializing Headless Firefox Browser");
-			System.setProperty("webdriver.gecko.driver", readconfig.getFireFoxPath());
+//			System.setProperty("webdriver.gecko.driver", readconfig.getFireFoxPath());
 			
 			FirefoxOptions options = new FirefoxOptions();
 			options.setHeadless(true);
@@ -144,14 +146,14 @@ public class BaseClass {
 	}
 	
 	/*Method to Flash Element*/
-	public static void Flash(WebElement element ,WebDriver driver)
+	public static void Flash(WebElement element ,WebDriver driver) throws InterruptedException
 	{
 		JavascriptExecutor js = ((JavascriptExecutor) driver);
-		//String bgcolor = element.getCssValue("backgroundColor");
-		for(int i=0;i<500;i++)
+		for(int i=0;i<100;i++)
 		{
-			js.executeScript("argument[0].style.backgroundColor = '#000000'", element);
-			js.executeScript("argument[0].style.backgroundColor = '#111111'", element);
+			js.executeScript("arguments[0].style.border='4px groove red'", element);
+            Thread.sleep(10);
+            js.executeScript("arguments[0].style.border='4px groove blue'", element);
 		}
 	}
 	

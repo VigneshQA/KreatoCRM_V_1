@@ -17,6 +17,15 @@
 	
 	</test>
 	
+	<!-- <test name="Login Page">
+	
+		<parameter name="browser" value="ie" />
+		<classes>	
+			<class name="com.kreatocrm.testCases.TS_Login_001" />
+		</classes>
+	
+	</test> -->
+	
 	<!-- <test name="Headless Browser Chrome">
 	
 		<parameter name="browser" value="HeadlessChrome" />
@@ -24,7 +33,7 @@
 			<class name="com.kreatocrm.testCases.TS_Login_001" />
 		</classes>
 	
-	</test> -->
+	</test>	 -->
 	
 	<!-- <test name="Headless Browser Firefox">
 	

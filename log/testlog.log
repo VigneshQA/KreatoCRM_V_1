@@ -1451,3 +1451,301 @@
 2019-11-29 16:48:10,161 - KretoCRM -INFO - Invalid UserName / Password
 2019-11-29 16:48:10,161 - KretoCRM -WARN - Login Failed
 2019-11-29 16:48:10,186 - KretoCRM -INFO - Quit
+2019-12-03 12:25:28,466 - KretoCRM -INFO - Initializing chrome browser
+2019-12-03 12:26:34,915 - KretoCRM -INFO - Initializing chrome browser
+2019-12-03 12:27:04,447 - KretoCRM -INFO - Initializing chrome browser
+2019-12-03 12:34:25,219 - KretoCRM -INFO - Initializing chrome browser
+2019-12-03 12:34:25,477 - io.github.bonigarcia.wdm.WebDriverManager -WARN - There was an error managing chromedriver (latest version) (null) ... trying again using cache and mirror
+2019-12-03 12:34:25,493 - io.github.bonigarcia.wdm.WebDriverManager -ERROR - There was an error managing chromedriver (latest version) (null)
+java.lang.NullPointerException
+	at io.github.bonigarcia.wdm.WebDriverManager.getBrowserVersionInWindows(WebDriverManager.java:1205)
+	at io.github.bonigarcia.wdm.WebDriverManager.getDefaultBrowserVersion(WebDriverManager.java:1175)
+	at io.github.bonigarcia.wdm.ChromeDriverManager.getBrowserVersion(ChromeDriverManager.java:103)
+	at io.github.bonigarcia.wdm.WebDriverManager.detectDriverVersionFromBrowser(WebDriverManager.java:581)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:509)
+	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:751)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:563)
+	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:260)
+	at com.kreatocrm.testCases.BaseClass.setup(BaseClass.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+	at org.testng.TestRunner$$Lambda$53/7982819.accept(Unknown Source)
+	at java.util.ArrayList.forEach(ArrayList.java:1234)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2019-12-03 12:36:26,518 - KretoCRM -INFO - Initializing chrome browser
+2019-12-03 12:36:26,752 - io.github.bonigarcia.wdm.WebDriverManager -WARN - There was an error managing chromedriver (latest version) (null) ... trying again using cache and mirror
+2019-12-03 12:36:26,766 - io.github.bonigarcia.wdm.WebDriverManager -ERROR - There was an error managing chromedriver (latest version) (null)
+java.lang.NullPointerException
+	at io.github.bonigarcia.wdm.WebDriverManager.getBrowserVersionInWindows(WebDriverManager.java:1205)
+	at io.github.bonigarcia.wdm.WebDriverManager.getDefaultBrowserVersion(WebDriverManager.java:1175)
+	at io.github.bonigarcia.wdm.ChromeDriverManager.getBrowserVersion(ChromeDriverManager.java:103)
+	at io.github.bonigarcia.wdm.WebDriverManager.detectDriverVersionFromBrowser(WebDriverManager.java:581)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:509)
+	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:751)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:563)
+	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:260)
+	at com.kreatocrm.testCases.BaseClass.setup(BaseClass.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+	at org.testng.TestRunner$$Lambda$53/6948014.accept(Unknown Source)
+	at java.util.ArrayList.forEach(ArrayList.java:1234)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+2019-12-03 12:48:54,553 - KretoCRM -INFO - Initializing chrome browser
+2019-12-03 12:48:54,581 - io.github.bonigarcia.wdm.Preferences -INFO - Clearing WebDriverManager preferences
+2019-12-03 12:48:54,814 - io.github.bonigarcia.wdm.WebDriverManager -WARN - There was an error managing chromedriver (latest version) (null) ... trying again using cache and mirror
+2019-12-03 12:48:54,831 - io.github.bonigarcia.wdm.WebDriverManager -ERROR - There was an error managing chromedriver (latest version) (null)
+java.lang.NullPointerException
+	at io.github.bonigarcia.wdm.WebDriverManager.getBrowserVersionInWindows(WebDriverManager.java:1205)
+	at io.github.bonigarcia.wdm.WebDriverManager.getDefaultBrowserVersion(WebDriverManager.java:1175)
+	at io.github.bonigarcia.wdm.ChromeDriverManager.getBrowserVersion(ChromeDriverManager.java:103)
+	at io.github.bonigarcia.wdm.WebDriverManager.detectDriverVersionFromBrowser(WebDriverManager.java:581)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:509)
+	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:751)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:563)
+	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:260)
+	at com.kreatocrm.testCases.BaseClass.setup(BaseClass.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+	at org.testng.TestRunner$$Lambda$53/6948014.accept(Unknown Source)
+	at java.util.ArrayList.forEach(ArrayList.java:1234)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+2019-12-03 15:11:17,427 - KretoCRM -INFO - Initializing Headless Firefox Browser
+2019-12-03 15:11:34,818 - KretoCRM -INFO - Initializing Headless Firefox Browser
+2019-12-03 15:12:17,190 - KretoCRM -INFO - Initializing IE browser
+2019-12-03 15:12:17,462 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Reading https://selenium-release.storage.googleapis.com/ to seek IEDriverServer
+2019-12-03 15:12:19,376 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Latest version of IEDriverServer is 3.150
+2019-12-03 15:12:19,380 - io.github.bonigarcia.wdm.Downloader -INFO - Downloading https://selenium-release.storage.googleapis.com/3.150/IEDriverServer_Win32_3.150.0.zip
+2019-12-03 15:12:51,287 - KretoCRM -INFO - Initializing IE browser
+2019-12-03 15:12:51,504 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Reading https://selenium-release.storage.googleapis.com/ to seek IEDriverServer
+2019-12-03 15:12:52,688 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Latest version of IEDriverServer is 3.150
+2019-12-03 15:12:52,692 - io.github.bonigarcia.wdm.Downloader -INFO - Downloading https://selenium-release.storage.googleapis.com/3.150/IEDriverServer_Win32_3.150.0.zip
+2019-12-03 15:13:05,972 - KretoCRM -INFO - Initializing IE browser
+2019-12-03 15:13:06,236 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Reading https://selenium-release.storage.googleapis.com/ to seek IEDriverServer
+2019-12-03 15:13:07,437 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Latest version of IEDriverServer is 3.150
+2019-12-03 15:13:07,440 - io.github.bonigarcia.wdm.Downloader -INFO - Downloading https://selenium-release.storage.googleapis.com/3.150/IEDriverServer_Win32_3.150.0.zip
+2019-12-03 16:26:47,764 - KretoCRM -INFO - Initializing IE browser
+2019-12-03 16:26:48,053 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Reading https://selenium-release.storage.googleapis.com/ to seek IEDriverServer
+2019-12-03 16:26:49,301 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Latest version of IEDriverServer is 3.150
+2019-12-03 16:26:49,306 - io.github.bonigarcia.wdm.Downloader -INFO - Downloading https://selenium-release.storage.googleapis.com/3.150/IEDriverServer_Win32_3.150.0.zip
+2019-12-03 16:26:49,980 - KretoCRM -INFO - Initializing Headless Chrome Browser
+2019-12-03 16:27:03,449 - KretoCRM -INFO - Getting Base URL
+2019-12-03 16:27:06,244 - KretoCRM -INFO - Entered UserName
+2019-12-03 16:27:06,310 - KretoCRM -INFO - Entered Password
+2019-12-03 16:27:12,742 - KretoCRM -INFO - Clicked Login button
+2019-12-03 16:27:15,017 - KretoCRM -INFO - Invalid UserName / Password
+2019-12-03 16:27:15,017 - KretoCRM -WARN - Login Failed
+2019-12-03 16:27:15,040 - KretoCRM -INFO - Quit
+2019-12-03 16:46:18,572 - KretoCRM -INFO - Initializing IE browser
+2019-12-03 16:46:18,816 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Reading https://selenium-release.storage.googleapis.com/ to seek IEDriverServer
+2019-12-03 16:46:20,011 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Latest version of IEDriverServer is 3.150
+2019-12-03 16:46:20,015 - io.github.bonigarcia.wdm.Downloader -INFO - Downloading https://selenium-release.storage.googleapis.com/3.150/IEDriverServer_Win32_3.150.0.zip
+2019-12-05 10:45:11,677 - KretoCRM -INFO - Initializing IE browser
+2019-12-05 10:45:11,927 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Reading https://selenium-release.storage.googleapis.com/ to seek IEDriverServer
+2019-12-05 10:45:13,773 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Latest version of IEDriverServer is 3.150
+2019-12-05 10:45:13,779 - io.github.bonigarcia.wdm.Downloader -INFO - Downloading https://selenium-release.storage.googleapis.com/3.150/IEDriverServer_Win32_3.150.0.zip
+2019-12-05 10:46:49,135 - KretoCRM -INFO - Initializing chrome browser
+2019-12-05 10:46:49,162 - io.github.bonigarcia.wdm.Preferences -INFO - Clearing WebDriverManager preferences
+2019-12-05 10:46:49,377 - io.github.bonigarcia.wdm.WebDriverManager -WARN - There was an error managing chromedriver (latest version) (null) ... trying again using cache and mirror
+2019-12-05 10:46:49,394 - io.github.bonigarcia.wdm.WebDriverManager -ERROR - There was an error managing chromedriver (latest version) (null)
+java.lang.NullPointerException
+	at io.github.bonigarcia.wdm.WebDriverManager.getBrowserVersionInWindows(WebDriverManager.java:1205)
+	at io.github.bonigarcia.wdm.WebDriverManager.getDefaultBrowserVersion(WebDriverManager.java:1175)
+	at io.github.bonigarcia.wdm.ChromeDriverManager.getBrowserVersion(ChromeDriverManager.java:103)
+	at io.github.bonigarcia.wdm.WebDriverManager.detectDriverVersionFromBrowser(WebDriverManager.java:581)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:509)
+	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:751)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:563)
+	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:260)
+	at com.kreatocrm.testCases.BaseClass.setup(BaseClass.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+	at org.testng.TestRunner$$Lambda$53/6948014.accept(Unknown Source)
+	at java.util.ArrayList.forEach(ArrayList.java:1234)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+2019-12-05 10:48:45,942 - KretoCRM -INFO - Initializing chrome browser
+2019-12-05 10:49:03,674 - KretoCRM -INFO - Getting Base URL
+2019-12-05 10:49:06,009 - KretoCRM -INFO - Entered UserName
+2019-12-05 10:49:06,138 - KretoCRM -INFO - Entered Password
+2019-12-05 10:49:07,111 - KretoCRM -INFO - Clicked Login button
+2019-12-05 10:49:09,362 - KretoCRM -INFO - Invalid UserName / Password
+2019-12-05 10:49:09,362 - KretoCRM -WARN - Login Failed
+2019-12-05 10:49:09,387 - KretoCRM -INFO - Quit
+2019-12-05 10:50:38,017 - KretoCRM -INFO - Initializing chrome browser
+2019-12-05 10:50:44,708 - KretoCRM -INFO - Getting Base URL
+2019-12-05 10:50:46,631 - KretoCRM -INFO - Entered UserName
+2019-12-05 10:50:46,699 - KretoCRM -INFO - Entered Password
+2019-12-05 10:50:47,146 - KretoCRM -INFO - Clicked Login button
+2019-12-05 10:50:49,449 - KretoCRM -INFO - Quit
+2019-12-05 10:51:43,978 - KretoCRM -INFO - Initializing chrome browser
+2019-12-05 10:51:49,635 - KretoCRM -INFO - Getting Base URL
+2019-12-05 10:51:51,633 - KretoCRM -INFO - Entered UserName
+2019-12-05 10:51:51,725 - KretoCRM -INFO - Entered Password
+2019-12-05 10:51:52,054 - KretoCRM -INFO - Clicked Login button
+2019-12-05 10:51:54,186 - KretoCRM -INFO - Quit
+2019-12-05 10:57:43,982 - KretoCRM -INFO - Initializing chrome browser
+2019-12-05 10:57:49,312 - KretoCRM -INFO - Getting Base URL
+2019-12-05 10:57:52,396 - KretoCRM -INFO - Entered UserName
+2019-12-05 10:57:52,458 - KretoCRM -INFO - Entered Password
+2019-12-05 10:57:52,890 - KretoCRM -INFO - Clicked Login button
+2019-12-05 10:58:01,828 - KretoCRM -INFO - Quit
+2019-12-05 11:17:29,669 - KretoCRM -INFO - Initializing chrome browser
+2019-12-05 11:17:34,949 - KretoCRM -INFO - Getting Base URL
+2019-12-05 11:17:36,621 - KretoCRM -INFO - Entered UserName
+2019-12-05 11:17:36,709 - KretoCRM -INFO - Entered Password
+2019-12-05 11:17:42,548 - KretoCRM -INFO - Clicked Login button
+2019-12-05 11:17:44,836 - KretoCRM -INFO - Quit
+2019-12-06 10:14:24,818 - KretoCRM -INFO - Initializing chrome browser
+2019-12-06 10:14:43,265 - KretoCRM -INFO - Getting Base URL
+2019-12-06 10:14:45,919 - KretoCRM -INFO - Entered UserName
+2019-12-06 10:14:45,980 - KretoCRM -INFO - Entered Password
+2019-12-06 10:14:47,800 - KretoCRM -INFO - Clicked Login button
+2019-12-06 10:14:57,793 - KretoCRM -INFO - Clicked Ok button in Multi Login Warining Popup
+2019-12-06 10:15:00,196 - KretoCRM -INFO - Quit
+2019-12-06 10:15:40,644 - KretoCRM -INFO - Initializing chrome browser
+2019-12-06 10:15:47,106 - KretoCRM -INFO - Getting Base URL
+2019-12-06 10:15:49,200 - KretoCRM -INFO - Entered UserName
+2019-12-06 10:15:49,265 - KretoCRM -INFO - Entered Password
+2019-12-06 10:15:49,892 - KretoCRM -INFO - Clicked Login button
+2019-12-06 10:15:54,686 - KretoCRM -INFO - Clicked Ok button in Multi Login Warining Popup
+2019-12-06 10:15:56,794 - KretoCRM -INFO - Clicked on UserInfo
+2019-12-06 10:15:58,315 - KretoCRM -INFO - Clicked on Logout
+2019-12-06 10:16:00,336 - KretoCRM -INFO - Successfully Logged out
+2019-12-06 10:16:00,361 - KretoCRM -INFO - Quit
+2019-12-06 10:47:59,531 - KretoCRM -INFO - Initializing chrome browser
+2019-12-06 10:48:05,079 - KretoCRM -INFO - Getting Base URL
+2019-12-06 10:48:07,326 - KretoCRM -INFO - Entered UserName
+2019-12-06 10:48:07,416 - KretoCRM -INFO - Entered Password
+2019-12-06 10:48:09,006 - KretoCRM -INFO - Clicked Login button
+2019-12-06 10:48:19,697 - KretoCRM -INFO - Initializing chrome browser
+2019-12-06 10:48:21,057 - KretoCRM -INFO - Quit
+2019-12-06 10:48:24,731 - KretoCRM -INFO - Getting Base URL
+2019-12-06 10:48:26,303 - KretoCRM -INFO - Entered UserName
+2019-12-06 10:48:26,372 - KretoCRM -INFO - Entered Password
+2019-12-06 10:48:26,886 - KretoCRM -INFO - Clicked Login button
+2019-12-06 10:48:48,871 - KretoCRM -INFO - Clicked Ok button in Multi Login Warining Popup
+2019-12-06 10:48:50,960 - KretoCRM -INFO - Clicked on UserInfo
+2019-12-06 10:48:52,357 - KretoCRM -INFO - Clicked on Logout
+2019-12-06 10:48:54,393 - KretoCRM -INFO - Successfully Logged out
+2019-12-06 10:48:54,418 - KretoCRM -INFO - Quit
+2019-12-06 11:24:12,532 - KretoCRM -INFO - Initializing chrome browser
+2019-12-06 11:24:18,946 - KretoCRM -INFO - Getting Base URL
+2019-12-06 11:24:21,210 - KretoCRM -INFO - Entered UserName
+2019-12-06 11:24:21,277 - KretoCRM -INFO - Entered Password
+2019-12-06 11:24:28,671 - KretoCRM -INFO - Clicked Login button
+2019-12-06 11:24:30,802 - KretoCRM -INFO - Clicked on UserInfo
+2019-12-06 11:24:31,409 - KretoCRM -INFO - Clicked on Logout
+2019-12-06 11:24:33,493 - KretoCRM -INFO - Quit
+2019-12-06 11:24:36,975 - KretoCRM -INFO - Initializing chrome browser
+2019-12-06 11:24:42,945 - KretoCRM -INFO - Getting Base URL
+2019-12-06 11:24:44,758 - KretoCRM -INFO - Entered UserName
+2019-12-06 11:24:44,833 - KretoCRM -INFO - Entered Password
+2019-12-06 11:24:46,553 - KretoCRM -INFO - Clicked Login button
+2019-12-06 11:24:48,598 - KretoCRM -INFO - Quit
+2019-12-06 11:40:17,780 - KretoCRM -INFO - Initializing chrome browser
+2019-12-06 11:40:44,123 - KretoCRM -INFO - Initializing chrome browser
+2019-12-06 11:40:49,894 - KretoCRM -INFO - Getting Base URL
+2019-12-06 11:40:52,124 - KretoCRM -INFO - Entered UserName
+2019-12-06 11:40:52,179 - KretoCRM -INFO - Entered Password
+2019-12-06 11:40:52,879 - KretoCRM -INFO - Clicked Login button
+2019-12-06 11:41:03,146 - KretoCRM -INFO - Clicked Ok button in Multi Login Warining Popup
+2019-12-06 11:41:05,240 - KretoCRM -INFO - Clicked on UserInfo
+2019-12-06 11:41:06,694 - KretoCRM -INFO - Clicked on Logout
+2019-12-06 11:41:08,726 - KretoCRM -INFO - Successfully Logged out
+2019-12-06 11:41:08,742 - KretoCRM -INFO - Quit
