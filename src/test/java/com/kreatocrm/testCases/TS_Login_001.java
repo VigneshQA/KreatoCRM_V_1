@@ -28,9 +28,9 @@ public class TS_Login_001 extends BaseClass{
 		
 		try {
 				lp.btnMLWOk.isDisplayed();
+				captureElement(lp.btnMLWOk, "TC_01_Login_001");
 				Flash(lp.btnMLWOk, driver);
 				lp.clickMultiLoginOk();
-				//captureElement(lp.btnMLWOk, "TC_01_Login_001");
 				logger.info("Clicked Ok button in Multi Login Warining Popup");
 				Thread.sleep(2000);			
 			}

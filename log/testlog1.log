@@ -1749,3 +1749,59 @@ java.lang.NullPointerException
 2019-12-06 11:41:06,694 [main] INFO KretoCRM - Clicked on Logout
 2019-12-06 11:41:08,726 [main] INFO KretoCRM - Successfully Logged out
 2019-12-06 11:41:08,742 [main] INFO KretoCRM - Quit
+2019-12-06 12:42:04,613 [main] INFO KretoCRM - Initializing chrome browser
+2019-12-06 12:42:10,767 [main] INFO KretoCRM - Getting Base URL
+2019-12-06 12:42:12,908 [main] INFO KretoCRM - Entered UserName
+2019-12-06 12:42:12,972 [main] INFO KretoCRM - Entered Password
+2019-12-06 12:42:14,138 [main] INFO KretoCRM - Clicked Login button
+2019-12-06 12:42:24,781 [main] INFO KretoCRM - Clicked on UserInfo
+2019-12-06 12:42:28,769 [main] INFO KretoCRM - Clicked on Logout
+2019-12-06 12:42:30,783 [main] INFO KretoCRM - Successfully Logged out
+2019-12-06 12:42:30,819 [main] INFO KretoCRM - Quit
+2019-12-06 12:43:22,853 [main] INFO KretoCRM - Initializing chrome browser
+2019-12-06 12:43:28,111 [main] INFO KretoCRM - Getting Base URL
+2019-12-06 12:43:30,856 [main] INFO KretoCRM - Entered UserName
+2019-12-06 12:43:31,021 [main] INFO KretoCRM - Entered Password
+2019-12-06 12:43:35,966 [main] INFO KretoCRM - Clicked Login button
+2019-12-06 12:43:38,087 [main] INFO KretoCRM - Clicked on UserInfo
+2019-12-06 12:43:39,467 [main] INFO KretoCRM - Clicked on Logout
+2019-12-06 12:43:41,482 [main] INFO KretoCRM - Successfully Logged out
+2019-12-06 12:43:41,502 [main] INFO KretoCRM - Quit
+2019-12-06 12:44:05,393 [main] INFO KretoCRM - Initializing chrome browser
+2019-12-06 12:44:10,261 [main] INFO KretoCRM - Getting Base URL
+2019-12-06 12:44:11,980 [main] INFO KretoCRM - Entered UserName
+2019-12-06 12:44:12,082 [main] INFO KretoCRM - Entered Password
+2019-12-06 12:44:15,065 [main] INFO KretoCRM - Clicked Login button
+2019-12-06 12:44:17,297 [main] INFO KretoCRM - Clicked on UserInfo
+2019-12-06 12:44:17,691 [main] INFO KretoCRM - Clicked on Logout
+2019-12-06 12:44:19,729 [main] INFO KretoCRM - Quit
+2019-12-06 12:44:24,180 [main] INFO KretoCRM - Initializing chrome browser
+2019-12-06 12:44:29,821 [main] INFO KretoCRM - Getting Base URL
+2019-12-06 12:44:35,683 [main] INFO KretoCRM - Entered UserName
+2019-12-06 12:44:35,738 [main] INFO KretoCRM - Entered Password
+2019-12-06 12:44:37,001 [main] INFO KretoCRM - Clicked Login button
+2019-12-06 12:44:49,117 [main] INFO KretoCRM - Quit
+2019-12-06 12:45:04,474 [main] INFO KretoCRM - Initializing chrome browser
+2019-12-06 12:45:10,246 [main] INFO KretoCRM - Getting Base URL
+2019-12-06 12:45:11,981 [main] INFO KretoCRM - Entered UserName
+2019-12-06 12:45:12,041 [main] INFO KretoCRM - Entered Password
+2019-12-06 12:45:12,345 [main] INFO KretoCRM - Clicked Login button
+2019-12-06 12:45:18,181 [main] INFO KretoCRM - Clicked on UserInfo
+2019-12-06 12:45:19,171 [main] INFO KretoCRM - Clicked on Logout
+2019-12-06 12:45:27,210 [main] INFO KretoCRM - Quit
+2019-12-06 12:46:00,556 [main] INFO KretoCRM - Initializing chrome browser
+2019-12-06 12:46:05,897 [main] INFO KretoCRM - Getting Base URL
+2019-12-06 12:46:08,488 [main] INFO KretoCRM - Entered UserName
+2019-12-06 12:46:08,545 [main] INFO KretoCRM - Entered Password
+2019-12-06 12:46:13,249 [main] INFO KretoCRM - Clicked Login button
+2019-12-06 12:46:22,843 [main] INFO KretoCRM - Initializing chrome browser
+2019-12-06 12:46:27,343 [main] INFO KretoCRM - Quit
+2019-12-06 12:46:30,285 [main] INFO KretoCRM - Getting Base URL
+2019-12-06 12:46:32,118 [main] INFO KretoCRM - Entered UserName
+2019-12-06 12:46:32,175 [main] INFO KretoCRM - Entered Password
+2019-12-06 12:46:32,672 [main] INFO KretoCRM - Clicked Login button
+2019-12-06 12:46:40,067 [main] INFO KretoCRM - Clicked Ok button in Multi Login Warining Popup
+2019-12-06 12:46:42,154 [main] INFO KretoCRM - Clicked on UserInfo
+2019-12-06 12:46:43,628 [main] INFO KretoCRM - Clicked on Logout
+2019-12-06 12:46:45,643 [main] INFO KretoCRM - Successfully Logged out
+2019-12-06 12:46:45,677 [main] INFO KretoCRM - Quit

@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="KreatoCRM" duration-ms="25921" started-at="2019-12-06T11:40:43 IST" finished-at="2019-12-06T11:41:09 IST">
+  <suite name="KreatoCRM" duration-ms="23865" started-at="2019-12-06T12:46:22 IST" finished-at="2019-12-06T12:46:46 IST">
     <groups>
     </groups>
-    <test name="Login Page" duration-ms="25921" started-at="2019-12-06T11:40:43 IST" finished-at="2019-12-06T11:41:09 IST">
+    <test name="Login Page" duration-ms="23865" started-at="2019-12-06T12:46:22 IST" finished-at="2019-12-06T12:46:46 IST">
       <class name="com.kreatocrm.testCases.TS_Login_001">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.kreatocrm.testCases.TS_Login_001@14ddd49]" name="setup" is-config="true" duration-ms="5811" started-at="2019-12-06T11:40:44 IST" finished-at="2019-12-06T11:40:49 IST">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.kreatocrm.testCases.TS_Login_001@14ddd49]" name="setup" is-config="true" duration-ms="7485" started-at="2019-12-06T12:46:22 IST" finished-at="2019-12-06T12:46:30 IST">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="TC_01_Login_001()[pri:0, instance:com.kreatocrm.testCases.TS_Login_001@14ddd49]" name="TC_01_Login_001" duration-ms="18839" started-at="2019-12-06T11:40:49 IST" finished-at="2019-12-06T11:41:08 IST">
+        <test-method status="PASS" signature="TC_01_Login_001()[pri:0, instance:com.kreatocrm.testCases.TS_Login_001@14ddd49]" name="TC_01_Login_001" duration-ms="15367" started-at="2019-12-06T12:46:30 IST" finished-at="2019-12-06T12:46:45 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_01_Login_001 -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.kreatocrm.testCases.TS_Login_001@14ddd49]" name="teardown" is-config="true" duration-ms="1100" started-at="2019-12-06T11:41:08 IST" finished-at="2019-12-06T11:41:09 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.kreatocrm.testCases.TS_Login_001@14ddd49]" name="teardown" is-config="true" duration-ms="828" started-at="2019-12-06T12:46:45 IST" finished-at="2019-12-06T12:46:46 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
